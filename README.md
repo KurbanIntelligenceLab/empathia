@@ -1,16 +1,25 @@
-# EMPATHIA
+# EMPATHIA: Multi-Faceted Human-AI Collaboration for Refugee Integration
+
+**[Mohamed Rayan Barhdadi](https://bmrayan.com/)¹, [Mehmet Tuncel](https://web.itu.edu.tr/tuncelm/)², [Hasan Kurban](https://hasankurban.com/)³**
+
+¹Texas A&M University at Qatar  
+²Istanbul Technical University, Turkey  
+³Hamad Bin Khalifa University, Qatar
+
+*Corresponding author: rayan.barhdadi@tamu.edu*
+
+**Submitted to NeurIPS 2025 Creative AI Track: Humanity**  
+**Paper:** [EMPATHIA_Paper.pdf](EMPATHIA_Paper.pdf)
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![Paper](https://img.shields.io/badge/paper-NeurIPS%202025%20Creative%20AI%20Track:%20Humanity%20(Submitted)-purple.svg)](EMPATHIA_Paper.pdf)
 
-**Enriched Multimodal Pathways for Agentic Thinking in Humanitarian Immigrant Assistance**
+## TL;DR - Abstract
 
-A multi-agent artificial intelligence framework designed for evidence-based refugee assessment and integration through systematic evaluation across emotional, cultural, and ethical dimensions.
+We present EMPATHIA (Enriched Multimodal Pathways for Agentic Thinking in Humanitarian Immigrant Assistance), a multi-agent framework designed to preserve human dignity in high-stakes humanitarian decision-making. By integrating emotional, cultural, and ethical perspectives through a selector-validator architecture, EMPATHIA achieved 89.3% validation convergence on 1,122 refugee profiles from the UNHCR Kakuma dataset, demonstrating how AI can augment rather than replace human expertise in refugee integration.
 
-## Abstract
-
-Current AI approaches to refugee integration optimize narrow objectives such as employment and fail to capture the cultural, emotional, and ethical dimensions critical for long-term success. We introduce **EMPATHIA** (Enriched Multimodal Pathways for Agentic Thinking in Humanitarian Immigrant Assistance), a multi-agent framework designed to preserve human dignity in high-stakes humanitarian decision-making. Grounded in Kegan's Constructive Developmental Theory, EMPATHIA decomposes integration into three modules: **SEED** (Socio-cultural Entry and Embedding Decision) for initial placement, **RISE** (Rapid Integration and Self-sufficiency Engine) for early independence, and **THRIVE** (Transcultural Harmony and Resilience through Integrated Values and Engagement) for sustained outcomes. SEED employs a selector–validator architecture with three specialized agents—emotional, cultural, and ethical—that deliberate transparently to produce interpretable recommendations. Experiments on the UN Kakuma dataset (15,000+ individuals) and implementation on 534 refugee profiles with 150+ socioeconomic variables achieved 89.3% validation convergence and explainable assessments across five host countries. EMPATHIA's weighted integration of cultural, emotional, and ethical factors balances competing value systems while supporting practitioner–AI collaboration. By augmenting rather than replacing human expertise, EMPATHIA provides a generalizable framework for AI-driven allocation tasks where multiple values must be reconciled.
+![EMPATHIA Framework](figures/prev4.png)
+*Figure 1: EMPATHIA's Human-AI Collaborative Framework demonstrating three developmental phases: SEED (initial placement), RISE (early independence), and THRIVE (sustained outcomes).*
 
 ## System Architecture
 
@@ -65,12 +74,6 @@ Based on evaluation of 1,122 refugee profiles from the UNHCR Kakuma dataset:
 | Cultural Agent Agreement | 92.1% |
 | Ethical Agent Agreement | 88.7% |
 
-### Host Country Distribution
-- Canada: 28.4%
-- Germany: 24.1%
-- Sweden: 21.7%
-- USA: 14.3%
-- Australia: 11.5%
 
 ## Installation
 
