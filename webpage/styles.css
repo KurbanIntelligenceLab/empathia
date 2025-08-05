@@ -1,0 +1,372 @@
+/* EMPATHIA Stylesheet - LLaVA Style */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Title Section - Darker gray */
+.title-section {
+    background-color: #dee2e6;
+    border-bottom: 1px solid #ced4da;
+}
+
+.display-3 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #333;
+    line-height: 1.2;
+}
+
+@media (max-width: 1200px) {
+    .display-3 {
+        font-size: 2.25rem;
+    }
+}
+
+/* Authors */
+.author-group {
+    font-size: 1.25rem;
+}
+
+.author-name {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.author-name:hover {
+    text-decoration: underline;
+}
+
+.affiliations {
+    font-size: 0.9rem;
+}
+
+/* Buttons - Very Rounded */
+.btn {
+    font-size: 1.1rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 50px;
+    transition: background-color 0.3s;
+    border: 1px solid transparent;
+    display: inline-flex;
+    align-items: center;
+    line-height: 1;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    text-decoration: underline;
+    transition: transform 0.2s ease;
+}
+
+.btn-primary {
+    background-color: #4a4a4a;
+    border-color: #4a4a4a;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #333333;
+    border-color: #333333;
+}
+
+.btn-secondary {
+    background-color: #4a4a4a;
+    border-color: #4a4a4a;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #333333;
+    border-color: #333333;
+}
+
+.btn-info {
+    background-color: #4a4a4a;
+    border-color: #4a4a4a;
+    color: white;
+}
+
+.btn-info:hover {
+    background-color: #333333;
+    border-color: #333333;
+}
+
+.btn-warning {
+    background-color: #4a4a4a;
+    border-color: #4a4a4a;
+    color: white;
+}
+
+.btn-warning:hover {
+    background-color: #333333;
+    border-color: #333333;
+    color: white;
+}
+
+.btn-success {
+    background-color: #4a4a4a;
+    border-color: #4a4a4a;
+    color: white;
+}
+
+.btn-success:hover {
+    background-color: #333333;
+    border-color: #333333;
+}
+
+/* Assessment button */
+.btn-assessment {
+    background-color: #5DADE2;
+    border: 2px solid #2E86C1;
+    color: #000000;
+    padding: 8px 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+.btn-assessment:hover {
+    background-color: #3498DB;
+    border-color: #2E86C1;
+    transform: scale(1.05);
+    color: #000000;
+}
+
+/* Module buttons container */
+.module-buttons {
+    display: inline-block;
+    border: 2.8px solid #4a4a4a;
+    border-radius: 40px;
+    padding: 10px 12px;
+}
+
+/* Module buttons */
+.module-buttons .btn {
+    transition: none;
+    font-weight: bold;
+}
+
+.btn-seed {
+    background-color: #5DADE2;
+    border: 2px solid #2E86C1;
+    color: #000000;
+}
+
+.btn-seed:hover {
+    background-color: #3498DB;
+    border-color: #2E86C1;
+    transform: scale(1.05);
+    text-decoration: underline;
+    color: #000000;
+}
+
+.btn-rise {
+    background-color: #F5B041;
+    border: 2px solid #D68910;
+    color: #000000;
+    cursor: not-allowed;
+    opacity: 0.8;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-rise:hover {
+    background-color: #6c757d !important;
+    border-color: #6c757d !important;
+    transform: none !important;
+    text-decoration: none !important;
+    color: #000000 !important;
+}
+
+.btn-thrive {
+    background-color: #BB8FCE;
+    border: 2px solid #8E44AD;
+    color: #000000;
+    cursor: not-allowed;
+    opacity: 0.8;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-thrive:hover {
+    background-color: #6c757d !important;
+    border-color: #6c757d !important;
+    transform: none !important;
+    text-decoration: none !important;
+    color: #000000 !important;
+}
+
+
+/* Headers */
+h3 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    color: #333;
+}
+
+/* Cards - LLaVA Style */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+    padding: 0.75rem 1rem;
+    border-radius: 15px 15px 0 0;
+}
+
+.card-body {
+    padding: 1.25rem;
+    padding-bottom: 5px;
+}
+
+/* Tables */
+.table {
+    font-size: 0.95rem;
+}
+
+.table-bordered {
+    border: 1px solid #ddd;
+}
+
+.table-bordered td,
+.table-bordered th {
+    border: 1px solid #ddd;
+}
+
+/* Forms */
+.form-control {
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+}
+
+label {
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+    font-size: 0.9rem;
+}
+
+/* Assessment Results */
+#assessment-results {
+    min-height: 150px;
+}
+
+.assessment-item {
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+    background-color: #f8f9fa;
+    border-left: 3px solid #007bff;
+}
+
+/* Score Display */
+#emotional-score,
+#cultural-score,
+#ethical-score {
+    color: #007bff;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+/* Pre-formatted text */
+pre {
+    font-size: 0.875rem;
+    background-color: #e9ecef;
+    border: 1px solid #dee2e6;
+    border-radius: 15px;
+}
+
+/* Copy button */
+.btn-copy {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 0.875rem;
+    z-index: 10;
+    transition: background-color 0.2s;
+}
+
+.btn-copy:hover {
+    background-color: #5a6268;
+    color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .display-3 {
+        font-size: 1.5rem;
+    }
+    
+    .author-group {
+        font-size: 1rem;
+    }
+    
+    .btn {
+        margin-bottom: 0.5rem;
+    }
+    
+    .form-row .form-group {
+        margin-bottom: 10px;
+    }
+}
+
+/* Links */
+a {
+    color: #007bff;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Utility */
+.text-justify {
+    text-align: justify;
+}
+
+.align-middle {
+    vertical-align: middle !important;
+}
+
+/* Remove container background - use body background throughout */
+.container, .container-fluid {
+    background-color: transparent;
+}
+
+/* Button icon styling */
+.btn-icon {
+    width: 18px;
+    height: 18px;
+    filter: invert(1);
+    margin-right: 5px;
+    display: inline-block;
+}
+
+/* Font Awesome and Material Icons in buttons */
+.btn i.fas, .btn i.fab, .btn i.material-icons {
+    color: white;
+    font-size: 18px;
+    margin-right: 5px;
+    display: inline-block;
+}

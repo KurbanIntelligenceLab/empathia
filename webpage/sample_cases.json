@@ -1,0 +1,1366 @@
+{
+  "cases": [
+    {
+      "id": "d5922fb9-da8c-483e-a855-80feb581f6cb",
+      "age": 44,
+      "age_group": "35-44",
+      "gender": "Woman",
+      "origin": "South Sudan",
+      "education": "Primary",
+      "english": "No",
+      "scores": {
+        "United States": {
+          "emotional": 6,
+          "cultural": 8,
+          "ethical": 6,
+          "weighted": 6.8
+        },
+        "Canada": {
+          "emotional": 6,
+          "cultural": 7,
+          "ethical": 6,
+          "weighted": 6.4
+        },
+        "Germany": {
+          "emotional": 6,
+          "cultural": 6,
+          "ethical": 6,
+          "weighted": 6.0
+        },
+        "Sweden": {
+          "emotional": 6,
+          "cultural": 8,
+          "ethical": 6,
+          "weighted": 6.8
+        },
+        "Australia": {
+          "emotional": 7,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 7.7
+        }
+      },
+      "recommended_country": "Australia",
+      "profile_summary": "Age: 44; Gender: Woman; Country Of Origin: South Sudan; Household Size: 12; Household Head: 1; Employed Last 7 Days: No; Work Status: Inactive; Work Before Displacement: Own-account worker in an agric..."
+    },
+    {
+      "id": "7cdc384f-a1d9-45b5-8d96-d43bcb5e17bb",
+      "age": 57,
+      "age_group": "55+",
+      "gender": "Man",
+      "origin": "South Sudan",
+      "education": "None",
+      "english": "Yes",
+      "scores": {
+        "United States": {
+          "emotional": 7,
+          "cultural": 8,
+          "ethical": 6,
+          "weighted": 7.1
+        },
+        "Canada": {
+          "emotional": 6,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 7.4
+        },
+        "Germany": {
+          "emotional": 7,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 7.7
+        },
+        "Sweden": {
+          "emotional": 8,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 8.0
+        },
+        "Australia": {
+          "emotional": 4,
+          "cultural": 5,
+          "ethical": 7,
+          "weighted": 5.3
+        }
+      },
+      "recommended_country": "Sweden",
+      "profile_summary": "Age: 57; Gender: Man; Country Of Origin: South Sudan; Household Size: 9; Household Head: 0; Education Level: Standard/Grade 2; Employed Last 7 Days: No; Work Status: Inactive; Work Before Displacement..."
+    },
+    {
+      "id": "65901bde-1eaa-4047-9cce-3efb51f36af2",
+      "age": 15,
+      "age_group": "18-24",
+      "gender": "Man",
+      "origin": "South Sudan",
+      "education": "None",
+      "english": "No",
+      "scores": {
+        "United States": {
+          "emotional": 8,
+          "cultural": 8,
+          "ethical": 6,
+          "weighted": 7.4
+        },
+        "Canada": {
+          "emotional": 7,
+          "cultural": 8,
+          "ethical": 6,
+          "weighted": 7.1
+        },
+        "Germany": {
+          "emotional": 5,
+          "cultural": 8,
+          "ethical": 6,
+          "weighted": 6.5
+        },
+        "Sweden": {
+          "emotional": 4,
+          "cultural": 8,
+          "ethical": 6,
+          "weighted": 6.2
+        },
+        "Australia": {
+          "emotional": 7,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 7.7
+        }
+      },
+      "recommended_country": "Australia",
+      "profile_summary": "Age: 15; Gender: Man; Country Of Origin: South Sudan; Household Size: 3; Household Head: 0; Employed Last 7 Days: No; Work Status: Inactive; Has Disability: No; Vision Difficulty: No \u2013 no difficulty; ..."
+    },
+    {
+      "id": "976c2d23-8715-4d28-855b-2e4784cdef7c",
+      "age": 23,
+      "age_group": "18-24",
+      "gender": "Man",
+      "origin": "Sudan",
+      "education": "None",
+      "english": "Yes",
+      "scores": {
+        "United States": {
+          "emotional": 8,
+          "cultural": 7,
+          "ethical": 8,
+          "weighted": 7.6
+        },
+        "Canada": {
+          "emotional": 7,
+          "cultural": 7,
+          "ethical": 8,
+          "weighted": 7.3
+        },
+        "Germany": {
+          "emotional": 8,
+          "cultural": 8,
+          "ethical": 7,
+          "weighted": 7.7
+        },
+        "Sweden": {
+          "emotional": 8,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 8.0
+        },
+        "Australia": {
+          "emotional": 7,
+          "cultural": 7,
+          "ethical": 8,
+          "weighted": 7.3
+        }
+      },
+      "recommended_country": "Sweden",
+      "profile_summary": "Age: 23; Gender: Man; Country Of Origin: Sudan; Household Size: 7; Household Head: 0; Education Level: Form 4/Grade 12; Employed Last 7 Days: Yes; Work Status: Employed; Type Of Work: Service and sale..."
+    },
+    {
+      "id": "81eacd03-87aa-4bf3-864a-e03d8f8e3911",
+      "age": 24,
+      "age_group": "18-24",
+      "gender": "Man",
+      "origin": "Sudan",
+      "education": "None",
+      "english": "Yes",
+      "scores": {
+        "United States": {
+          "emotional": 7,
+          "cultural": 7,
+          "ethical": 6,
+          "weighted": 6.7
+        },
+        "Canada": {
+          "emotional": 6,
+          "cultural": 7,
+          "ethical": 8,
+          "weighted": 7.0
+        },
+        "Germany": {
+          "emotional": 8,
+          "cultural": 8,
+          "ethical": 7,
+          "weighted": 7.7
+        },
+        "Sweden": {
+          "emotional": 8,
+          "cultural": 4,
+          "ethical": 6,
+          "weighted": 5.8
+        },
+        "Australia": {
+          "emotional": 6,
+          "cultural": 6,
+          "ethical": 6,
+          "weighted": 6.0
+        }
+      },
+      "recommended_country": "Germany",
+      "profile_summary": "Age: 24; Gender: Man; Country Of Origin: Sudan; Household Size: 1; Household Head: 1; Employed Last 7 Days: No; Work Status: Inactive; Has Disability: No; Vision Difficulty: No \u2013 no difficulty; Hearin..."
+    },
+    {
+      "id": "fb94c44f-4f2b-40e4-b870-1aedde12a7bd",
+      "age": 21,
+      "age_group": "18-24",
+      "gender": "Man",
+      "origin": "Burundi",
+      "education": "None",
+      "english": "No",
+      "scores": {
+        "United States": {
+          "emotional": 6,
+          "cultural": 8,
+          "ethical": 7,
+          "weighted": 7.1
+        },
+        "Canada": {
+          "emotional": 6,
+          "cultural": 6,
+          "ethical": 4,
+          "weighted": 5.4
+        },
+        "Germany": {
+          "emotional": 7,
+          "cultural": 8,
+          "ethical": 6,
+          "weighted": 7.1
+        },
+        "Sweden": {
+          "emotional": 7,
+          "cultural": 7,
+          "ethical": 7,
+          "weighted": 7.0
+        },
+        "Australia": {
+          "emotional": 7,
+          "cultural": 6,
+          "ethical": 6,
+          "weighted": 6.3
+        }
+      },
+      "recommended_country": "United States",
+      "profile_summary": "Age: 21; Gender: Man; Country Of Origin: Burundi; Household Size: 5; Household Head: 0; Employed Last 7 Days: No; Work Status: Inactive; Has Disability: No; Vision Difficulty: No \u2013 no difficulty; Hear..."
+    },
+    {
+      "id": "2a99b3cc-bab5-4f0e-9e83-116b365157b7",
+      "age": 32,
+      "age_group": "25-34",
+      "gender": "Man",
+      "origin": "Sudan",
+      "education": "Primary",
+      "english": "Yes",
+      "scores": {
+        "United States": {
+          "emotional": 6,
+          "cultural": 8,
+          "ethical": 5,
+          "weighted": 6.5
+        },
+        "Canada": {
+          "emotional": 7,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 7.7
+        },
+        "Germany": {
+          "emotional": 6,
+          "cultural": 8,
+          "ethical": 6,
+          "weighted": 6.8
+        },
+        "Sweden": {
+          "emotional": 5,
+          "cultural": 7,
+          "ethical": 6,
+          "weighted": 6.1
+        },
+        "Australia": {
+          "emotional": 6,
+          "cultural": 8,
+          "ethical": 7,
+          "weighted": 7.1
+        }
+      },
+      "recommended_country": "Canada",
+      "profile_summary": "Age: 32; Gender: Man; Country Of Origin: Sudan; Household Size: 6; Household Head: 0; Education Level: Form 4/Grade 12; Employed Last 7 Days: No; Work Status: Inactive; Work Before Displacement: Own-a..."
+    },
+    {
+      "id": "711082a7-61bd-4ec8-8867-da9941a1e511",
+      "age": 28,
+      "age_group": "25-34",
+      "gender": "Man",
+      "origin": "DR Congo",
+      "education": "Primary",
+      "english": "No",
+      "scores": {
+        "United States": {
+          "emotional": 8,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 8.0
+        },
+        "Canada": {
+          "emotional": 6,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 7.4
+        },
+        "Germany": {
+          "emotional": 6,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 7.4
+        },
+        "Sweden": {
+          "emotional": 6,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 7.4
+        },
+        "Australia": {
+          "emotional": 8,
+          "cultural": 7,
+          "ethical": 8,
+          "weighted": 7.6
+        }
+      },
+      "recommended_country": "United States",
+      "profile_summary": "Age: 28; Gender: Man; Country Of Origin: DR Congo; Household Size: 1; Household Head: 1; Employed Last 7 Days: No; Work Status: Inactive; Work Before Displacement: Own-account worker in a non-agricult..."
+    },
+    {
+      "id": "d33c88b1-9bc6-4506-b756-940aff521545",
+      "age": 22,
+      "age_group": "18-24",
+      "gender": "Man",
+      "origin": "South Sudan",
+      "education": "Primary",
+      "english": "Yes",
+      "scores": {
+        "United States": {
+          "emotional": 7,
+          "cultural": 8,
+          "ethical": 6,
+          "weighted": 7.1
+        },
+        "Canada": {
+          "emotional": 6,
+          "cultural": 8,
+          "ethical": 6,
+          "weighted": 6.8
+        },
+        "Germany": {
+          "emotional": 6,
+          "cultural": 6,
+          "ethical": 8,
+          "weighted": 6.6
+        },
+        "Sweden": {
+          "emotional": 6,
+          "cultural": 8,
+          "ethical": 6,
+          "weighted": 6.8
+        },
+        "Australia": {
+          "emotional": 7,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 7.7
+        }
+      },
+      "recommended_country": "Australia",
+      "profile_summary": "Age: 22; Gender: Man; Country Of Origin: South Sudan; Household Size: 3; Household Head: 1; Employed Last 7 Days: No; Work Status: Inactive; Work Before Displacement: Own-account worker in an agricult..."
+    },
+    {
+      "id": "b0858bcc-52cc-44e4-b8b5-b3b5bfb55ece",
+      "age": 17,
+      "age_group": "18-24",
+      "gender": "Woman",
+      "origin": "Sudan",
+      "education": "None",
+      "english": "Yes",
+      "scores": {
+        "United States": {
+          "emotional": 8,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 8.0
+        },
+        "Canada": {
+          "emotional": 8,
+          "cultural": 8,
+          "ethical": 7,
+          "weighted": 7.7
+        },
+        "Germany": {
+          "emotional": 8,
+          "cultural": 7,
+          "ethical": 8,
+          "weighted": 7.6
+        },
+        "Sweden": {
+          "emotional": 8,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 8.0
+        },
+        "Australia": {
+          "emotional": 6,
+          "cultural": 5,
+          "ethical": 8,
+          "weighted": 6.2
+        }
+      },
+      "recommended_country": "United States",
+      "profile_summary": "Age: 17; Gender: Woman; Country Of Origin: Sudan; Household Size: 4; Household Head: 0; Employed Last 7 Days: Yes; Work Status: Employed; Type Of Work: Elementary occupations; Has Disability: No; Visi..."
+    },
+    {
+      "id": "7830167c-db07-4166-aa78-8a20833abf51",
+      "age": 18,
+      "age_group": "18-24",
+      "gender": "Man",
+      "origin": "Sudan",
+      "education": "None",
+      "english": "Yes",
+      "scores": {
+        "United States": {
+          "emotional": 6,
+          "cultural": 8,
+          "ethical": 6,
+          "weighted": 6.8
+        },
+        "Canada": {
+          "emotional": 4,
+          "cultural": 7,
+          "ethical": 7,
+          "weighted": 6.1
+        },
+        "Germany": {
+          "emotional": 4,
+          "cultural": 5,
+          "ethical": 4,
+          "weighted": 4.4
+        },
+        "Sweden": {
+          "emotional": 7,
+          "cultural": 6,
+          "ethical": 8,
+          "weighted": 6.9
+        },
+        "Australia": {
+          "emotional": 6,
+          "cultural": 7,
+          "ethical": 6,
+          "weighted": 6.4
+        }
+      },
+      "recommended_country": "Sweden",
+      "profile_summary": "Age: 18; Gender: Man; Country Of Origin: Sudan; Household Size: 9; Household Head: 0; Employed Last 7 Days: No; Work Status: Inactive; Has Disability: No; Vision Difficulty: No \u2013 no difficulty; Hearin..."
+    },
+    {
+      "id": "65b1a877-dde8-4111-94b7-23ab0e29e03a",
+      "age": 20,
+      "age_group": "18-24",
+      "gender": "Woman",
+      "origin": "Sudan",
+      "education": "None",
+      "english": "Yes",
+      "scores": {
+        "United States": {
+          "emotional": 6,
+          "cultural": 8,
+          "ethical": 7,
+          "weighted": 7.1
+        },
+        "Canada": {
+          "emotional": 8,
+          "cultural": 6,
+          "ethical": 8,
+          "weighted": 7.2
+        },
+        "Germany": {
+          "emotional": 7,
+          "cultural": 8,
+          "ethical": 6,
+          "weighted": 7.1
+        },
+        "Sweden": {
+          "emotional": 8,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 8.0
+        },
+        "Australia": {
+          "emotional": 6,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 7.4
+        }
+      },
+      "recommended_country": "Sweden",
+      "profile_summary": "Age: 20; Gender: Woman; Country Of Origin: Sudan; Household Size: 10; Household Head: 0; Employed Last 7 Days: No; Work Status: Inactive; Has Disability: No; Vision Difficulty: No \u2013 no difficulty; Hea..."
+    },
+    {
+      "id": "42b60fa9-fe4b-4496-a63d-e14de9e58571",
+      "age": 31,
+      "age_group": "25-34",
+      "gender": "Man",
+      "origin": "Sudan",
+      "education": "None",
+      "english": "Yes",
+      "scores": {
+        "United States": {
+          "emotional": 8,
+          "cultural": 8,
+          "ethical": 6,
+          "weighted": 7.4
+        },
+        "Canada": {
+          "emotional": 5,
+          "cultural": 8,
+          "ethical": 6,
+          "weighted": 6.5
+        },
+        "Germany": {
+          "emotional": 5,
+          "cultural": 6,
+          "ethical": 5,
+          "weighted": 5.4
+        },
+        "Sweden": {
+          "emotional": 6,
+          "cultural": 7,
+          "ethical": 6,
+          "weighted": 6.4
+        },
+        "Australia": {
+          "emotional": 5,
+          "cultural": 6,
+          "ethical": 6,
+          "weighted": 5.7
+        }
+      },
+      "recommended_country": "United States",
+      "profile_summary": "Age: 31; Gender: Man; Country Of Origin: Sudan; Household Size: 3; Household Head: 0; Employed Last 7 Days: No; Work Status: Inactive; Work Before Displacement: Paid employee; Has Disability: No; Visi..."
+    },
+    {
+      "id": "39273cb5-5a02-4a57-bff4-2b4e36ef17a1",
+      "age": 23,
+      "age_group": "18-24",
+      "gender": "Man",
+      "origin": "Sudan",
+      "education": "Primary",
+      "english": "Yes",
+      "scores": {
+        "United States": {
+          "emotional": 6,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 7.4
+        },
+        "Canada": {
+          "emotional": 7,
+          "cultural": 8,
+          "ethical": 5,
+          "weighted": 6.8
+        },
+        "Germany": {
+          "emotional": 6,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 7.4
+        },
+        "Sweden": {
+          "emotional": 7,
+          "cultural": 8,
+          "ethical": 7,
+          "weighted": 7.4
+        },
+        "Australia": {
+          "emotional": 6,
+          "cultural": 6,
+          "ethical": 8,
+          "weighted": 6.6
+        }
+      },
+      "recommended_country": "United States",
+      "profile_summary": "Age: 23; Gender: Man; Country Of Origin: Sudan; Household Size: 16; Household Head: 0; Employed Last 7 Days: No; Work Status: Inactive; Work Before Displacement: Own-account worker in an agricultural ..."
+    },
+    {
+      "id": "11cab875-5453-4198-b1bc-694de3585041",
+      "age": 26,
+      "age_group": "25-34",
+      "gender": "Man",
+      "origin": "Sudan",
+      "education": "None",
+      "english": "Yes",
+      "scores": {
+        "United States": {
+          "emotional": 8,
+          "cultural": 7,
+          "ethical": 8,
+          "weighted": 7.6
+        },
+        "Canada": {
+          "emotional": 7,
+          "cultural": 8,
+          "ethical": 7,
+          "weighted": 7.4
+        },
+        "Germany": {
+          "emotional": 6,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 7.4
+        },
+        "Sweden": {
+          "emotional": 8,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 8.0
+        },
+        "Australia": {
+          "emotional": 8,
+          "cultural": 7,
+          "ethical": 8,
+          "weighted": 7.6
+        }
+      },
+      "recommended_country": "Sweden",
+      "profile_summary": "Age: 26; Gender: Man; Country Of Origin: Sudan; Household Size: 1; Household Head: 1; Education Level: Form 4/Grade 12; Employed Last 7 Days: Yes; Work Status: Employed; Type Of Work: Service and sale..."
+    },
+    {
+      "id": "a18972c7-5253-4ca0-96ab-067a265e0a30",
+      "age": 29,
+      "age_group": "25-34",
+      "gender": "Man",
+      "origin": "Sudan",
+      "education": "None",
+      "english": "Yes",
+      "scores": {
+        "United States": {
+          "emotional": 6,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 7.4
+        },
+        "Canada": {
+          "emotional": 6,
+          "cultural": 6,
+          "ethical": 8,
+          "weighted": 6.6
+        },
+        "Germany": {
+          "emotional": 6,
+          "cultural": 7,
+          "ethical": 7,
+          "weighted": 6.7
+        },
+        "Sweden": {
+          "emotional": 5,
+          "cultural": 5,
+          "ethical": 5,
+          "weighted": 5.0
+        },
+        "Australia": {
+          "emotional": 6,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 7.4
+        }
+      },
+      "recommended_country": "United States",
+      "profile_summary": "Age: 29; Gender: Man; Country Of Origin: Sudan; Household Size: 4; Household Head: 1; Education Level: Diploma/Certificate Year 1; Employed Last 7 Days: No; Work Status: Inactive; Has Disability: No; ..."
+    },
+    {
+      "id": "bff76064-91d2-40bf-af67-983ede3af92c",
+      "age": 25,
+      "age_group": "25-34",
+      "gender": "Man",
+      "origin": "Sudan",
+      "education": "None",
+      "english": "Yes",
+      "scores": {
+        "United States": {
+          "emotional": 7,
+          "cultural": 9,
+          "ethical": 6,
+          "weighted": 7.5
+        },
+        "Canada": {
+          "emotional": 8,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 8.0
+        },
+        "Germany": {
+          "emotional": 8,
+          "cultural": 8,
+          "ethical": 6,
+          "weighted": 7.4
+        },
+        "Sweden": {
+          "emotional": 6,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 7.4
+        },
+        "Australia": {
+          "emotional": 8,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 8.0
+        }
+      },
+      "recommended_country": "Canada",
+      "profile_summary": "Age: 25; Gender: Man; Country Of Origin: Sudan; Household Size: 9; Household Head: 1; Education Level: Form 4/Grade 12; Employed Last 7 Days: Yes; Work Status: Employed; Type Of Work: Professional; Ha..."
+    },
+    {
+      "id": "7e879705-0d62-41f5-9fcb-862c82c52347",
+      "age": 22,
+      "age_group": "18-24",
+      "gender": "Man",
+      "origin": "Sudan",
+      "education": "None",
+      "english": "Yes",
+      "scores": {
+        "United States": {
+          "emotional": 8,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 8.0
+        },
+        "Canada": {
+          "emotional": 7,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 7.7
+        },
+        "Germany": {
+          "emotional": 8,
+          "cultural": 7,
+          "ethical": 8,
+          "weighted": 7.6
+        },
+        "Sweden": {
+          "emotional": 8,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 8.0
+        },
+        "Australia": {
+          "emotional": 8,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 8.0
+        }
+      },
+      "recommended_country": "United States",
+      "profile_summary": "Age: 22; Gender: Man; Country Of Origin: Sudan; Household Size: 5; Household Head: 1; Employed Last 7 Days: Yes; Work Status: Employed; Type Of Work: Service and sales workers; Has Disability: No; Vis..."
+    },
+    {
+      "id": "eef0100a-84c9-43b1-a84a-3658ea3db807",
+      "age": 15,
+      "age_group": "18-24",
+      "gender": "Man",
+      "origin": "Sudan",
+      "education": "None",
+      "english": "Yes",
+      "scores": {
+        "United States": {
+          "emotional": 4,
+          "cultural": 8,
+          "ethical": 6,
+          "weighted": 6.2
+        },
+        "Canada": {
+          "emotional": 4,
+          "cultural": 6,
+          "ethical": 6,
+          "weighted": 5.4
+        },
+        "Germany": {
+          "emotional": 6,
+          "cultural": 6,
+          "ethical": 5,
+          "weighted": 5.7
+        },
+        "Sweden": {
+          "emotional": 4,
+          "cultural": 4,
+          "ethical": 8,
+          "weighted": 5.2
+        },
+        "Australia": {
+          "emotional": 6,
+          "cultural": 6,
+          "ethical": 5,
+          "weighted": 5.7
+        }
+      },
+      "recommended_country": "United States",
+      "profile_summary": "Age: 15; Gender: Man; Country Of Origin: Sudan; Household Size: 3; Household Head: 0; Employed Last 7 Days: No; Work Status: Inactive; Has Disability: Yes; Vision Difficulty: Yes \u2013 some difficulty; He..."
+    },
+    {
+      "id": "49d9085e-ab9b-40fd-ad4a-7cfe0397313d",
+      "age": 25,
+      "age_group": "25-34",
+      "gender": "Man",
+      "origin": "Sudan",
+      "education": "None",
+      "english": "Yes",
+      "scores": {
+        "United States": {
+          "emotional": 6,
+          "cultural": 8,
+          "ethical": 6,
+          "weighted": 6.8
+        },
+        "Canada": {
+          "emotional": 8,
+          "cultural": 6,
+          "ethical": 8,
+          "weighted": 7.2
+        },
+        "Germany": {
+          "emotional": 7,
+          "cultural": 6,
+          "ethical": 8,
+          "weighted": 6.9
+        },
+        "Sweden": {
+          "emotional": 6,
+          "cultural": 6,
+          "ethical": 5,
+          "weighted": 5.7
+        },
+        "Australia": {
+          "emotional": 6,
+          "cultural": 7,
+          "ethical": 8,
+          "weighted": 7.0
+        }
+      },
+      "recommended_country": "Canada",
+      "profile_summary": "Age: 25; Gender: Man; Country Of Origin: Sudan; Household Size: 4; Household Head: 0; Education Level: Form 4/Grade 12; Employed Last 7 Days: No; Work Status: Unemployed; Has Disability: No; Vision Di..."
+    },
+    {
+      "id": "425c32db-37f7-462e-bfbf-fb36422a9532",
+      "age": 29,
+      "age_group": "25-34",
+      "gender": "Man",
+      "origin": "Sudan",
+      "education": "None",
+      "english": "Yes",
+      "scores": {
+        "United States": {
+          "emotional": 7,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 7.7
+        },
+        "Canada": {
+          "emotional": 8,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 8.0
+        },
+        "Germany": {
+          "emotional": 8,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 8.0
+        },
+        "Sweden": {
+          "emotional": 7,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 7.7
+        },
+        "Australia": {
+          "emotional": 7,
+          "cultural": 7,
+          "ethical": 8,
+          "weighted": 7.3
+        }
+      },
+      "recommended_country": "Canada",
+      "profile_summary": "Age: 29; Gender: Man; Country Of Origin: Sudan; Household Size: 1; Household Head: 1; Education Level: Form 4/Grade 12; Employed Last 7 Days: No; Work Status: Employed; Type Of Work: Service and sales..."
+    },
+    {
+      "id": "f9ee7c9d-595a-4271-9924-f19613e106c2",
+      "age": 15,
+      "age_group": "18-24",
+      "gender": "Woman",
+      "origin": "Sudan",
+      "education": "None",
+      "english": "Yes",
+      "scores": {
+        "United States": {
+          "emotional": 6,
+          "cultural": 8,
+          "ethical": 6,
+          "weighted": 6.8
+        },
+        "Canada": {
+          "emotional": 6,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 7.4
+        },
+        "Germany": {
+          "emotional": 7,
+          "cultural": 6,
+          "ethical": 6,
+          "weighted": 6.3
+        },
+        "Sweden": {
+          "emotional": 6,
+          "cultural": 7,
+          "ethical": 6,
+          "weighted": 6.4
+        },
+        "Australia": {
+          "emotional": 6,
+          "cultural": 7,
+          "ethical": 8,
+          "weighted": 7.0
+        }
+      },
+      "recommended_country": "Canada",
+      "profile_summary": "Age: 15; Gender: Woman; Country Of Origin: Sudan; Household Size: 9; Household Head: 0; Employed Last 7 Days: No; Work Status: Inactive; Has Disability: No; Vision Difficulty: No \u2013 no difficulty; Hear..."
+    },
+    {
+      "id": "1a0d1159-cd50-49d7-b80e-c44f36cf4869",
+      "age": 31,
+      "age_group": "25-34",
+      "gender": "Man",
+      "origin": "Sudan",
+      "education": "Primary",
+      "english": "Yes",
+      "scores": {
+        "United States": {
+          "emotional": 8,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 8.0
+        },
+        "Canada": {
+          "emotional": 8,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 8.0
+        },
+        "Germany": {
+          "emotional": 5,
+          "cultural": 7,
+          "ethical": 8,
+          "weighted": 6.7
+        },
+        "Sweden": {
+          "emotional": 8,
+          "cultural": 6,
+          "ethical": 7,
+          "weighted": 6.9
+        },
+        "Australia": {
+          "emotional": 7,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 7.7
+        }
+      },
+      "recommended_country": "United States",
+      "profile_summary": "Age: 31; Gender: Man; Country Of Origin: Sudan; Household Size: 5; Household Head: 1; Employed Last 7 Days: Yes; Work Status: Employed; Type Of Work: Elementary occupations; Work Before Displacement: ..."
+    },
+    {
+      "id": "fbefa11d-5bbc-4462-94cb-28279bc2a46b",
+      "age": 23,
+      "age_group": "18-24",
+      "gender": "Man",
+      "origin": "Sudan",
+      "education": "None",
+      "english": "Yes",
+      "scores": {
+        "United States": {
+          "emotional": 8,
+          "cultural": 8,
+          "ethical": 6,
+          "weighted": 7.4
+        },
+        "Canada": {
+          "emotional": 6,
+          "cultural": 6,
+          "ethical": 8,
+          "weighted": 6.6
+        },
+        "Germany": {
+          "emotional": 7,
+          "cultural": 6,
+          "ethical": 7,
+          "weighted": 6.6
+        },
+        "Sweden": {
+          "emotional": 8,
+          "cultural": 8,
+          "ethical": 10,
+          "weighted": 8.6
+        },
+        "Australia": {
+          "emotional": 6,
+          "cultural": 6,
+          "ethical": 7,
+          "weighted": 6.3
+        }
+      },
+      "recommended_country": "Sweden",
+      "profile_summary": "Age: 23; Gender: Man; Country Of Origin: Sudan; Household Size: 2; Household Head: 1; Employed Last 7 Days: No; Work Status: Inactive; Has Disability: No; Vision Difficulty: No \u2013 no difficulty; Hearin..."
+    },
+    {
+      "id": "bc70921a-1ee5-47f8-847b-f7873faf5c87",
+      "age": 17,
+      "age_group": "18-24",
+      "gender": "Woman",
+      "origin": "Sudan",
+      "education": "None",
+      "english": "Yes",
+      "scores": {
+        "United States": {
+          "emotional": 6,
+          "cultural": 8,
+          "ethical": 6,
+          "weighted": 6.8
+        },
+        "Canada": {
+          "emotional": 5,
+          "cultural": 8,
+          "ethical": 5,
+          "weighted": 6.2
+        },
+        "Germany": {
+          "emotional": 7,
+          "cultural": 6,
+          "ethical": 4,
+          "weighted": 5.7
+        },
+        "Sweden": {
+          "emotional": 8,
+          "cultural": 6,
+          "ethical": 6,
+          "weighted": 6.6
+        },
+        "Australia": {
+          "emotional": 6,
+          "cultural": 8,
+          "ethical": 4,
+          "weighted": 6.2
+        }
+      },
+      "recommended_country": "United States",
+      "profile_summary": "Age: 17; Gender: Woman; Country Of Origin: Sudan; Household Size: 12; Household Head: 0; Employed Last 7 Days: No; Work Status: Inactive; Has Disability: No; Vision Difficulty: Yes \u2013 some difficulty; ..."
+    },
+    {
+      "id": "49a7a27c-17f6-4982-8b05-63f8c9998233",
+      "age": 26,
+      "age_group": "25-34",
+      "gender": "Woman",
+      "origin": "Sudan",
+      "education": "None",
+      "english": "Yes",
+      "scores": {
+        "United States": {
+          "emotional": 8,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 8.0
+        },
+        "Canada": {
+          "emotional": 8,
+          "cultural": 8,
+          "ethical": 7,
+          "weighted": 7.7
+        },
+        "Germany": {
+          "emotional": 8,
+          "cultural": 7,
+          "ethical": 8,
+          "weighted": 7.6
+        },
+        "Sweden": {
+          "emotional": 8,
+          "cultural": 8,
+          "ethical": 7,
+          "weighted": 7.7
+        },
+        "Australia": {
+          "emotional": 8,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 8.0
+        }
+      },
+      "recommended_country": "United States",
+      "profile_summary": "Age: 26; Gender: Woman; Country Of Origin: Sudan; Household Size: 8; Household Head: 1; Employed Last 7 Days: Yes; Work Status: Employed; Type Of Work: Service and sales workers; Has Disability: No; V..."
+    },
+    {
+      "id": "f0cb3df9-4889-49dc-8625-d1a407e6e142",
+      "age": 30,
+      "age_group": "25-34",
+      "gender": "Man",
+      "origin": "Sudan",
+      "education": "None",
+      "english": "Yes",
+      "scores": {
+        "United States": {
+          "emotional": 8,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 8.0
+        },
+        "Canada": {
+          "emotional": 6,
+          "cultural": 5,
+          "ethical": 6,
+          "weighted": 5.6
+        },
+        "Germany": {
+          "emotional": 8,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 8.0
+        },
+        "Sweden": {
+          "emotional": 6,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 7.4
+        },
+        "Australia": {
+          "emotional": 8,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 8.0
+        }
+      },
+      "recommended_country": "United States",
+      "profile_summary": "Age: 30; Gender: Man; Country Of Origin: Sudan; Household Size: 2; Household Head: 1; Employed Last 7 Days: No; Work Status: Inactive; Has Disability: No; Vision Difficulty: No \u2013 no difficulty; Hearin..."
+    },
+    {
+      "id": "b5d41fce-61e6-4f34-9112-6280274cc2c1",
+      "age": 17,
+      "age_group": "18-24",
+      "gender": "Man",
+      "origin": "Sudan",
+      "education": "None",
+      "english": "Yes",
+      "scores": {
+        "United States": {
+          "emotional": 6,
+          "cultural": 8,
+          "ethical": 6,
+          "weighted": 6.8
+        },
+        "Canada": {
+          "emotional": 6,
+          "cultural": 6,
+          "ethical": 8,
+          "weighted": 6.6
+        },
+        "Germany": {
+          "emotional": 6,
+          "cultural": 6,
+          "ethical": 8,
+          "weighted": 6.6
+        },
+        "Sweden": {
+          "emotional": 6,
+          "cultural": 7,
+          "ethical": 8,
+          "weighted": 7.0
+        },
+        "Australia": {
+          "emotional": 7,
+          "cultural": 6,
+          "ethical": 8,
+          "weighted": 6.9
+        }
+      },
+      "recommended_country": "Sweden",
+      "profile_summary": "Age: 17; Gender: Man; Country Of Origin: Sudan; Household Size: 3; Household Head: 1; Employed Last 7 Days: No; Work Status: Inactive; Has Disability: No; Vision Difficulty: No \u2013 no difficulty; Hearin..."
+    },
+    {
+      "id": "4cb9985b-4632-4e53-ad5d-ded672923695",
+      "age": 37,
+      "age_group": "35-44",
+      "gender": "Woman",
+      "origin": "Sudan",
+      "education": "None",
+      "english": "Yes",
+      "scores": {
+        "United States": {
+          "emotional": 5,
+          "cultural": 6,
+          "ethical": 6,
+          "weighted": 5.7
+        },
+        "Canada": {
+          "emotional": 6,
+          "cultural": 8,
+          "ethical": 6,
+          "weighted": 6.8
+        },
+        "Germany": {
+          "emotional": 5,
+          "cultural": 7,
+          "ethical": 6,
+          "weighted": 6.1
+        },
+        "Sweden": {
+          "emotional": 6,
+          "cultural": 7,
+          "ethical": 4,
+          "weighted": 5.8
+        },
+        "Australia": {
+          "emotional": 6,
+          "cultural": 8,
+          "ethical": 6,
+          "weighted": 6.8
+        }
+      },
+      "recommended_country": "Canada",
+      "profile_summary": "Age: 37; Gender: Woman; Country Of Origin: Sudan; Household Size: 9; Household Head: 1; Employed Last 7 Days: No; Work Status: Inactive; Has Disability: No; Vision Difficulty: No \u2013 no difficulty; Hear..."
+    },
+    {
+      "id": "285b0a60-a8cb-4f55-be6a-b33168197baa",
+      "age": 42,
+      "age_group": "35-44",
+      "gender": "Woman",
+      "origin": "Sudan",
+      "education": "None",
+      "english": "Yes",
+      "scores": {
+        "United States": {
+          "emotional": 7,
+          "cultural": 7,
+          "ethical": 8,
+          "weighted": 7.3
+        },
+        "Canada": {
+          "emotional": 8,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 8.0
+        },
+        "Germany": {
+          "emotional": 7,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 7.7
+        },
+        "Sweden": {
+          "emotional": 8,
+          "cultural": 8,
+          "ethical": 6,
+          "weighted": 7.4
+        },
+        "Australia": {
+          "emotional": 8,
+          "cultural": 8,
+          "ethical": 7,
+          "weighted": 7.7
+        }
+      },
+      "recommended_country": "Canada",
+      "profile_summary": "Age: 42; Gender: Woman; Country Of Origin: Sudan; Household Size: 9; Household Head: 1; Employed Last 7 Days: Yes; Work Status: Employed; Type Of Work: Service and sales workers; Has Disability: No; V..."
+    },
+    {
+      "id": "d89f8039-2a2c-421f-ad63-4cf75a071281",
+      "age": 46,
+      "age_group": "45-54",
+      "gender": "Woman",
+      "origin": "South Sudan",
+      "education": "None",
+      "english": "No",
+      "scores": {
+        "United States": {
+          "emotional": 6,
+          "cultural": 8,
+          "ethical": 6,
+          "weighted": 6.8
+        },
+        "Canada": {
+          "emotional": 5,
+          "cultural": 8,
+          "ethical": 8,
+          "weighted": 7.1
+        },
+        "Germany": {
+          "emotional": 7,
+          "cultural": 8,
+          "ethical": 6,
+          "weighted": 7.1
+        },
+        "Sweden": {
+          "emotional": 5,
+          "cultural": 8,
+          "ethical": 6,
+          "weighted": 6.5
+        },
+        "Australia": {
+          "emotional": 8,
+          "cultural": 8,
+          "ethical": 6,
+          "weighted": 7.4
+        }
+      },
+      "recommended_country": "Australia",
+      "profile_summary": "Age: 46; Gender: Woman; Country Of Origin: South Sudan; Household Size: 9; Household Head: 1; Employed Last 7 Days: No; Work Status: Inactive; Has Disability: No; Vision Difficulty: No \u2013 no difficulty..."
+    }
+  ],
+  "total_cases": 31,
+  "metadata": {
+    "countries_of_origin": [
+      "Sudan",
+      "DR Congo",
+      "Burundi",
+      "South Sudan"
+    ],
+    "age_groups": [
+      "18-24",
+      "45-54",
+      "35-44",
+      "25-34",
+      "55+"
+    ],
+    "education_levels": [
+      "None",
+      "Primary",
+      "Secondary",
+      "University"
+    ],
+    "host_countries": [
+      "United States",
+      "Canada",
+      "Germany",
+      "Sweden",
+      "Australia"
+    ]
+  }
+}

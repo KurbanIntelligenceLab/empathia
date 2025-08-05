@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMPATHIA: Multi-Faceted Human-AI Collaboration for Refugee Integration</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Title Section with Gray Background like LLaVA -->
+    <div class="title-section text-center pt-5 pb-4">
+        <div class="container">
+                <h1 class="display-3 font-weight-bold mb-3">EMPATHIA:<br>Multi-Faceted Human-AI Collaboration for Refugee Integration</h1>
+                <p class="text-danger mb-2">Submitted to NeurIPS 2025 Creative AI Track: Humanity</p>
+                
+                <!-- Authors -->
+                <div class="authors mb-2">
+                    <div class="author-group">
+                        <a href="https://bmrayan.com" target="_blank" class="author-name">Mohamed Rayan Barhdadi</a><sup>1</sup>
+                        <span class="mx-3">·</span>
+                        <a href="https://web.itu.edu.tr/tuncelm/" target="_blank" class="author-name">Mehmet Tuncel</a><sup>2</sup>
+                        <span class="mx-3">·</span>
+                        <a href="https://hasankurban.com" target="_blank" class="author-name">Hasan Kurban</a><sup>3</sup>
+                    </div>
+                </div>
+                
+                <div class="affiliations small text-muted mb-3">
+                    <sup>1</sup>Texas A&M University, Qatar
+                    <span class="mx-2">|</span>
+                    <sup>2</sup>Istanbul Technical University, Turkey
+                    <span class="mx-2">|</span>
+                    <sup>3</sup>Hamad Bin Khalifa University, Qatar
+                </div>
+                
+                <!-- Buttons -->
+                <div class="buttons mb-4">
+                    <a href="../EMPATHIA_Paper.pdf" class="btn btn-primary mx-1">
+                        <img src="arxiv_icon.png" class="btn-icon" alt="arXiv"> arXiv
+                    </a>
+                    <a href="https://github.com/KurbanIntelligenceLab/empathia" class="btn btn-secondary mx-1">
+                        <i class="fab fa-github"></i> Code
+                    </a>
+                    <a href="#demo" class="btn btn-info mx-1">
+                        <img src="demo_icon.png" class="btn-icon" alt="Demo"> Demo
+                    </a>
+                    <a href="#dataset" class="btn btn-warning mx-1">
+                        <img src="database_icon.png" class="btn-icon" alt="Dataset"> Dataset
+                    </a>
+                    <a href="#results" class="btn btn-success mx-1">
+                        <img src="results_icon.png" class="btn-icon" alt="Results"> Results
+                    </a>
+                </div>
+                
+                <!-- Module Buttons -->
+                <div class="module-buttons">
+                    <a href="#demo" class="btn btn-seed mr-1">
+                        SEED
+                    </a>
+                    <a class="btn btn-rise mx-1" onclick="return false;">
+                        👀 RISE
+                    </a>
+                    <a class="btn btn-thrive ml-1" onclick="return false;">
+                        👀 THRIVE
+                    </a>
+                </div>
+                <div class="text-center mt-2">
+                    <span class="text-muted" style="font-style: italic;">more soon...</span>
+                </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container mt-5">
+            <!-- Abstract -->
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-10">
+                    <h3>Abstract</h3>
+                    <p class="text-justify">
+                        Current AI approaches to refugee integration optimize narrow objectives such as employment and fail to capture the cultural, emotional, and ethical dimensions critical for long-term success. We introduce <strong>EMPATHIA</strong> (<strong>E</strong>nriched <strong>M</strong>ultimodal <strong>P</strong>athways for <strong>A</strong>gentic <strong>T</strong>hinking in <strong>H</strong>umanitarian <strong>I</strong>mmigrant <strong>A</strong>ssistance), a multi-agent framework designed to preserve human dignity in high-stakes humanitarian decision-making. Grounded in Kegan's Constructive Developmental Theory, EMPATHIA decomposes integration into three modules: <strong>SEED</strong> (Socio-cultural Entry and Embedding Decision) for initial placement, <strong>RISE</strong> (Rapid Integration and Self-sufficiency Engine) for early independence, and <strong>THRIVE</strong> (Transcultural Harmony and Resilience through Integrated Values and Engagement) for sustained outcomes. SEED employs a selector–validator architecture with three specialized agents—emotional, cultural, and ethical—that deliberate transparently to produce interpretable recommendations. Experiments on the UN Kakuma dataset (15,000+ individuals) and implementation on 534 refugee profiles with 150+ socioeconomic variables achieved 89.3% validation convergence and explainable assessments across five host countries. EMPATHIA's weighted integration of cultural, emotional, and ethical factors balances competing value systems while supporting practitioner–AI collaboration. By augmenting rather than replacing human expertise, EMPATHIA provides a generalizable framework for AI-driven allocation tasks where multiple values must be reconciled.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Architecture -->
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-10">
+                    <h3>System Architecture</h3>
+                    <div class="text-center mb-3">
+                        <img src="../figures/prev4.png" class="img-fluid" alt="EMPATHIA Framework" style="max-width: 100%;">
+                    </div>
+                    <p class="text-justify">
+                        EMPATHIA's Human-AI Collaborative Framework demonstrates how artificial intelligence amplifies rather than replaces human wisdom through three developmental phases: SEED (initial placement honoring individual narratives), RISE (identity construction through meaningful participation), and THRIVE (transcultural harmony enriching both refugee and host communities).
+                    </p>
+                </div>
+            </div>
+
+            <!-- Demo Section -->
+            <div id="demo" class="row justify-content-center mb-5">
+                <div class="col-lg-10">
+                    <h3>Interactive Demo: <span style="color: #5DADE2;">SEED Module</span></h3>
+                    
+                    <!-- Profile Input -->
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Configure Refugee Profile</h5>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <label>Age</label>
+                                        <select class="form-control" id="age-select">
+                                            <option>18-24</option>
+                                            <option selected>25-34</option>
+                                            <option>35-44</option>
+                                            <option>45-54</option>
+                                            <option>55+</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <label>Gender</label>
+                                        <select class="form-control" id="gender-select">
+                                            <option>Male</option>
+                                            <option>Female</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <label>Country of Origin</label>
+                                        <select class="form-control" id="origin-select">
+                                            <option>Somalia</option>
+                                            <option>South Sudan</option>
+                                            <option>Syria</option>
+                                            <option>Afghanistan</option>
+                                            <option>DR Congo</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <label>Education Level</label>
+                                        <select class="form-control" id="education-select">
+                                            <option>None</option>
+                                            <option>Primary</option>
+                                            <option>Secondary</option>
+                                            <option>University</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <label>English Proficiency</label>
+                                        <select class="form-control" id="english-select">
+                                            <option>Yes</option>
+                                            <option>No</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center mb-3">
+                                <button class="btn btn-assessment" onclick="runAssessment()">Run Multi-Perspective Assessment</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Results Display -->
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h6>Emotional</h6>
+                                    <h2 id="emotional-score">-</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h6>Cultural</h6>
+                                    <h2 id="cultural-score">-</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h6>Ethical</h6>
+                                    <h2 id="ethical-score">-</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card mt-3">
+                        <div class="card-body" id="assessment-results">
+                            <p class="text-muted text-center mb-0">Configure profile and run assessment to see recommendations</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Results -->
+            <div id="results" class="row justify-content-center mb-5">
+                <div class="col-lg-10">
+                    <h3>Experimental Results</h3>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <table class="table table-bordered">
+                                <tr>
+                                    <td>Total Refugees Assessed</td>
+                                    <td><strong>1,122</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Validation Convergence</td>
+                                    <td><strong>89.3%</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Processing Time</td>
+                                    <td><strong>2.3 min</strong></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="col-md-6">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>Country</th>
+                                        <th>Recommendations</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td>Canada</td><td>28.4%</td></tr>
+                                    <tr><td>Germany</td><td>24.1%</td></tr>
+                                    <tr><td>Sweden</td><td>21.7%</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dataset Section -->
+            <div id="dataset" class="row justify-content-center mb-5">
+                <div class="col-lg-10">
+                    <h3>Dataset</h3>
+                    <p class="text-justify">
+                        The evaluation was conducted on the United Nations High Commissioner for Refugees (UNHCR) dataset comprising detailed profiles of 15,000+ individuals from diverse demographic backgrounds.
+                        For access to the dataset, please request it directly <a href="https://microdata.unhcr.org/index.php/catalog/302?utm_source" target="_blank">here</a>. Please request it in the UNHCR library.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Citation -->
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-10">
+                    <h3>Citation</h3>
+                    <div class="position-relative">
+                        <button class="btn btn-sm btn-copy" onclick="copyCitation()">
+                            <i class="fas fa-copy"></i> Copy
+                        </button>
+                        <pre class="p-3" id="citation-text">@article{barhdadi2025empathia,
+  title={EMPATHIA: Multi-Faceted Human-AI Collaboration for Refugee Integration},
+  author={Barhdadi, Mohamed Rayan and Tuncel, Mehmet and Kurban, Hasan},
+  journal={arXiv preprint},
+  year={2025}
+}</pre>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact -->
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-10">
+                    <h3>Contact</h3>
+                    <div class="row text-center">
+                        <div class="col-md-4">
+                            <strong>Mohamed Rayan Barhdadi</strong><br>
+                            Texas A&M University, Qatar<br>
+                            <a href="mailto:rayan.barhdadi@tamu.edu">rayan.barhdadi@tamu.edu</a>
+                        </div>
+                        <div class="col-md-4">
+                            <strong>Mehmet Tuncel</strong><br>
+                            Istanbul Technical University, Turkey<br>
+                            <a href="mailto:tuncelm@itu.edu.tr">tuncelm@itu.edu.tr</a>
+                        </div>
+                        <div class="col-md-4">
+                            <strong>Hasan Kurban</strong><br>
+                            Hamad Bin Khalifa University, Qatar<br>
+                            <a href="mailto:hkurban@hbku.edu.qa">hkurban@hbku.edu.qa</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
