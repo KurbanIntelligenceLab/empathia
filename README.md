@@ -6,13 +6,8 @@
 ²Istanbul Technical University, Turkey  
 ³Hamad Bin Khalifa University, Qatar
 
-*Corresponding author: rayan.barhdadi@tamu.edu*
-
 **Submitted to NeurIPS 2025 Creative AI Track: Humanity**  
 **Paper:** [EMPATHIA_Paper.pdf](EMPATHIA_Paper.pdf)
-
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
 ## TL;DR - Abstract
 
