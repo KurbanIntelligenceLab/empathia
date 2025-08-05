@@ -52,10 +52,7 @@ The EMPATHIA framework consists of three developmental modules:
 ```
 
 ### Key Features
-- Processes 19+ refugee profile attributes including demographics, education, work history, and functional capabilities
-- Iterative refinement through agent consensus mechanisms
-- Transparent reasoning with traceable decision paths
-- Scalable architecture supporting batch processing
+TBD
 
 ## Performance Metrics
 
@@ -134,13 +131,11 @@ This work contributes to the intersection of artificial intelligence and humanit
 
 ## License
 
-This project is licensed under the Apache License 2.0. See [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See [LICENSE](LICENSE) file for details.
 
 ## Contact
 
-**Principal Investigators:**
-- Mohamed Rayan Barhdadi - Texas A&M University at Qatar (rayan.barhdadi@tamu.edu)
-- Mehmet Tuncel - Istanbul Technical University (tuncelm@itu.edu.tr)
+For any inquiry related to this work please contact:
 - Hasan Kurban - Hamad Bin Khalifa University (hkurban@hbku.edu.qa)
 
 ## Acknowledgments
