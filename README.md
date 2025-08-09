@@ -2,9 +2,9 @@
 
 **[Mohamed Rayan Barhdadi](https://bmrayan.com)¹, [Mehmet Tuncel](https://web.itu.edu.tr/tuncelm/)², [Erchin Serpedin](https://engineering.tamu.edu/electrical/profiles/eserpedin.html)¹, [Hasan Kurban](https://hasankurban.com)³**
 
-¹Department of Electrical and Computer Engineering, Texas A&M University  
-²Department of Computer Engineering, Istanbul Technical University  
-³Division of Information and Computing Technology, Hamad Bin Khalifa University
+¹Texas A&M University  
+²Istanbul Technical University  
+³Hamad Bin Khalifa University
 
 *Corresponding author: mohamed.barhdadi@tamu.edu*
 
