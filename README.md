@@ -6,7 +6,8 @@
 ²Istanbul Technical University  
 ³Hamad Bin Khalifa University
 
-*Corresponding author: hkurban@hbku.edu.qa*
+*Corresponding author: hkurban@hbku.edu.qa*  
+*For code and data inquiries: mohamed.barhdadi@tamu.edu*
 
 **Submitted to NeurIPS 2025 Creative AI Track: Humanity**  
 **Paper:** [EMPATHIA_Paper.pdf](../EMPATHIA_Paper.pdf) | **Demo:** [Interactive Web Application](webpage/index.html)
@@ -30,20 +31,24 @@ We introduce EMPATHIA (Enriched Multimodal Pathways for Agentic Thinking in Huma
 
 ### Multi-Agent Deliberation Quality
 
-| Profile Complexity | N    | Convergence | Iterations | Coherence | Agreement | Dependency |
-|-------------------|------|-------------|------------|-----------|-----------|------------|
-| Low (<5 features) | 892  | 93.7%       | 1.12       | 0.94      | 91.3%     | 3.2        |
-| Medium (5-10)     | 2647 | 89.8%       | 1.21       | 0.91      | 87.2%     | 4.1        |
-| High (11-15)      | 1283 | 86.4%       | 1.34       | 0.88      | 83.6%     | 4.8        |
-| Very High (>15)   | 295  | 81.2%       | 1.67       | 0.84      | 78.9%     | 5.6        |
+| Category | N | Convergence (%) | Iterations | Coherence | Agreement (%) | Depth |
+|----------|---|-----------------|------------|-----------|---------------|-------|
+| **Profile Complexity** | | | | | | |
+| Low (<5) | 892 | 93.7 | 1.12 | 0.94 | 91.3 | 3.2 |
+| Medium (5-10) | 2647 | 89.8 | 1.21 | 0.91 | 87.2 | 4.1 |
+| High (11-15) | 1283 | 86.4 | 1.34 | 0.88 | 83.6 | 4.8 |
+| Very High (>15) | 295 | 81.2 | 1.67 | 0.84 | 78.9 | 5.6 |
+| **Validator Feedback** | | | | | | |
+| No Issues | 4087 | 100.0 | 1.00 | 0.94 | 91.8 | 4.2 |
+| Minor Refinements | 783 | 67.3 | 2.00 | 0.86 | 82.4 | 4.3 |
+| Major Revisions | 247 | 48.2 | 3.21 | 0.78 | 74.6 | 4.5 |
 
-### Perspective-Specific Performance
+### Agent-Specific Performance
 
-| Perspective | Weight | Mean Score | Std Dev | Alignment |
-|-------------|--------|------------|---------|-----------|
-| Cultural    | 40%    | 7.2        | 1.3     | 0.89      |
-| Emotional   | 30%    | 6.8        | 1.5     | 0.86      |
-| Ethical     | 30%    | 7.0        | 1.2     | 0.88      |
+| Agent | Weight (%) | Mean Score | Std Dev | Alignment |
+| Cultural    | 40    | 7.2        | 1.3     | 0.89      |
+| Emotional   | 30    | 6.8        | 1.5     | 0.86      |
+| Ethical     | 30    | 7.0        | 1.2     | 0.88      |
 
 ## Method Overview
 
@@ -156,24 +161,23 @@ The evaluation uses the UN Kakuma refugee camp dataset:
 If you find this work useful, please cite:
 
 ```bibtex
-@inproceedings{barhdadi2025empathia,
-  title     = {EMPATHIA: Multi-Faceted Human-AI Collaboration for Refugee Integration},
-  author    = {Barhdadi, Mohamed Rayan and Tuncel, Mehmet and Serpedin, Erchin and Kurban, Hasan},
-  booktitle = {Advances in Neural Information Processing Systems (NeurIPS), Creative AI Track},
-  year      = {2025},
-  note      = {Interactive demo: \url{https://empathia-demo.github.io}}
+@article{barhdadi2025empathia,
+  title  = {EMPATHIA: Multi-Faceted Human-AI Collaboration for Refugee Integration},
+  author = {Barhdadi, Mohamed Rayan and Tuncel, Mehmet and Serpedin, Erchin and Kurban, Hasan},
+  year   = {2025},
+  note   = {Under review}
 }
 ```
 
 ## Acknowledgments
 
-We thank the UNHCR for data access, the refugee communities whose experiences inform this work, and the NeurIPS reviewers for their valuable feedback. This research was supported by grants from Texas A&M University and Hamad Bin Khalifa University.
+We thank the UNHCR for data access and the refugee communities whose experiences inform this work.
 
 ## Contact
 
 For questions, collaboration, or feedback:
-- **Primary Contact**: Mohamed Rayan Barhdadi (mohamed.barhdadi@tamu.edu)
-- **Project Lead**: Dr. Hasan Kurban (hkurban@hbku.edu.qa)
+- **Corresponding Author**: Dr. Hasan Kurban (hkurban@hbku.edu.qa)
+- **Code & Data Inquiries**: Mohamed Rayan Barhdadi (mohamed.barhdadi@tamu.edu)
 - **Repository**: https://github.com/KurbanIntelligenceLab/empathia
 
 ## License
