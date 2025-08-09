@@ -1,165 +1,77 @@
 # EMPATHIA: Multi-Faceted Human-AI Collaboration for Refugee Integration
 
-**[Mohamed Rayan Barhdadi](https://bmrayan.com/)¹, [Mehmet Tuncel](https://web.itu.edu.tr/tuncelm/)², [Hasan Kurban](https://hasankurban.com/)³**
+A multi-agent AI framework for refugee integration assessment, submitted to NeurIPS 2025 Creative AI Track.
 
-¹Texas A&M University at Qatar  
-²Istanbul Technical University, Turkey  
-³Hamad Bin Khalifa University, Qatar
+## Overview
 
-**Submitted to NeurIPS 2025 Creative AI Track: Humanity**  
-**Paper:** [EMPATHIA_Paper.pdf](EMPATHIA_Paper.pdf)
+EMPATHIA (Enriched Multimodal Pathways for Agentic Thinking in Humanitarian Immigrant Assistance) addresses refugee integration through a novel multi-agent deliberation system. The framework employs three specialized agents (Cultural, Emotional, Ethical) that collaborate transparently to produce interpretable placement recommendations.
 
-## TL;DR - Abstract
+## Features
 
-We present EMPATHIA (Enriched Multimodal Pathways for Agentic Thinking in Humanitarian Immigrant Assistance), a multi-agent framework designed to preserve human dignity in high-stakes humanitarian decision-making. By integrating emotional, cultural, and ethical perspectives through a selector-validator architecture, EMPATHIA achieved 89.3% validation convergence on 1,122 refugee profiles from the UNHCR Kakuma dataset, demonstrating how AI can augment rather than replace human expertise in refugee integration.
+- **Multi-Agent Architecture**: Three specialized agents with weighted deliberation (Cultural 40%, Emotional 30%, Ethical 30%)
+- **Transparent Reasoning**: Interpretable assessments with detailed explanations
+- **Selector-Validator Design**: Ensures recommendation consistency
+- **Validated Performance**: 87.4% convergence rate on 6,359 refugee profiles from UN Kakuma dataset
 
-![EMPATHIA Framework](figures/prev4.png)
-*Figure 1: EMPATHIA's Human-AI Collaborative Framework demonstrating three developmental phases: SEED (initial placement), RISE (early independence), and THRIVE (sustained outcomes).*
+## Demo
 
-## System Architecture
-
-The EMPATHIA framework consists of three developmental modules:
-
-### SEED Module (Socio-cultural Entry and Embedding Decision)
-- Initial placement assessment (0-6 months)
-- Multi-perspective evaluation across emotional, cultural, and ethical dimensions
-- Selector-validator architecture ensuring assessment quality
-- Weighted scoring: Cultural (40%), Emotional (30%), Ethical (30%)
-
-### RISE Module (Rapid Integration and Self-sufficiency Engine)
-- Early-stage development support (6-24 months)
-- Focus on vocational mapping and language acquisition
-- Adaptive learning pathways based on individual progress
-
-### THRIVE Module (Transcultural Harmony and Resilience)
-- Long-term integration support (24+ months)
-- Bicultural fluency development
-- Leadership and community contribution opportunities
-
-## Technical Implementation
-
-### Multi-Agent Architecture
-- **Emotional Agent**: Evaluates psychological resilience, adaptation capacity, and support requirements
-- **Cultural Agent**: Assesses linguistic capabilities, cultural compatibility, and integration potential
-- **Ethical Agent**: Analyzes legal status, vulnerability factors, and accommodation needs
-
-### Selector-Validator Mechanism
-```
-1. Initial assessment by specialized agents
-2. Validation iteration with consistency checks
-3. Convergence criteria evaluation
-4. Final recommendation synthesis
-```
-
-### Key Features
-TBD
-
-## Performance Metrics
-
-Based on evaluation of 1,122 refugee profiles from the UNHCR Kakuma dataset:
-
-| Metric | Value |
-|--------|-------|
-| Validation Convergence | 89.3% |
-| Average Processing Time | 2.3 minutes |
-| Emotional Agent Agreement | 87.2% |
-| Cultural Agent Agreement | 92.1% |
-| Ethical Agent Agreement | 88.7% |
-
+Open `webpage/index.html` in a modern web browser to interact with the SEED module assessment system.
 
 ## Installation
 
 ```bash
+# Clone repository
 git clone https://github.com/KurbanIntelligenceLab/empathia.git
 cd empathia
+
+# For web demo
+cd webpage
+python -m http.server 8000
+# Visit http://localhost:8000
+
+# For Python implementation (optional)
 pip install -r requirements.txt
 ```
 
-## Usage
+## Structure
 
-```python
-from empathia import SEEDAssessor
-
-# Initialize multi-agent assessor
-assessor = SEEDAssessor(
-    weights={'emotional': 0.3, 'cultural': 0.4, 'ethical': 0.3}
-)
-
-# Load refugee profile data
-profile = load_profile("refugee_data.csv")
-
-# Perform multi-perspective assessment
-recommendation = assessor.assess(profile)
-
-# Access results
-print(f"Recommended country: {recommendation.country}")
-print(f"Weighted score: {recommendation.score}/10")
-print(f"Confidence: {recommendation.confidence}")
+```
+empathia/
+├── webpage/                    # Web application
+│   ├── index.html             # Main interface
+│   ├── script.js              # Assessment logic
+│   ├── styles.css             # Styling
+│   ├── figures/               # Architecture diagrams
+│   │   ├── EMPATHIA_framework.png
+│   │   └── SEED.png
+│   └── *.png                  # UI icons
+├── code/                       # Python implementation
+│   ├── assessment_prompts.py
+│   ├── profile_builder.py
+│   └── refugee_assessment_system.py
+├── requirements.txt            # Python dependencies
+├── LICENSE                     # MIT License
+└── README.md                   # Documentation
 ```
 
-## Data Requirements
+## Authors
 
-The system processes standardized refugee profiles containing:
-- Demographic information (age, gender, country of origin)
-- Educational background and professional experience
-- Language proficiencies
-- Documentation status
-- Functional capabilities assessment
-- Household composition and dependency ratios
-
-## Dataset
-
-The evaluation was conducted on the United Nations High Commissioner for Refugees (UNHCR) dataset comprising detailed profiles of 15,000+ individuals from diverse demographic backgrounds. For access to the dataset, please request it directly [here](https://microdata.unhcr.org/index.php/catalog/302?utm_source). Please request it in the UNHCR library.
-
-## Research Context
-
-This work contributes to the intersection of artificial intelligence and humanitarian applications by:
-1. Implementing transparent multi-agent deliberation for high-stakes decisions
-2. Preserving human agency while enabling systematic assessment at scale
-3. Providing empirically-validated framework for value-sensitive AI deployment
+- [Mohamed Rayan Barhdadi](https://bmrayan.com) - Texas A&M University
+- [Mehmet Tuncel](https://web.itu.edu.tr/tuncelm/) - Istanbul Technical University
+- [Erchin Serpedin](https://engineering.tamu.edu/electrical/profiles/eserpedin.html) - Texas A&M University
+- [Hasan Kurban](https://hasankurban.com) - Hamad Bin Khalifa University
 
 ## Citation
 
 ```bibtex
-@article{barhdadi2025empathia,
+@inproceedings{barhdadi2025empathia,
   title={EMPATHIA: Multi-Faceted Human-AI Collaboration for Refugee Integration},
-  author={Barhdadi, Mohamed Rayan and Tuncel, Mehmet and Kurban, Hasan},
-  journal={arXiv preprint},
+  author={Barhdadi, Mohamed Rayan and Tuncel, Mehmet and Serpedin, Erchin and Kurban, Hasan},
+  booktitle={NeurIPS 2025 Creative AI Track},
   year={2025}
 }
 ```
 
 ## License
 
-This project is licensed under the MIT License. See [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For any inquiry related to this work please contact:
-- Hasan Kurban - Hamad Bin Khalifa University (hkurban@hbku.edu.qa)
-
-## Acknowledgments
-
-We thank the United Nations High Commissioner for Refugees (UNHCR) for providing access to the anonymized refugee data that made this research possible.
-
-## Repository Structure
-
-```
-empathia/
-├── empathia/          # Core framework implementation
-├── docs/              # Technical documentation
-├── examples/          # Usage examples and tutorials
-├── tests/             # Unit and integration tests
-├── results/           # Evaluation results and analysis
-└── webpage/           # Interactive demonstration interface
-```
-
-## Future Directions
-
-Current development focuses on:
-- Extended evaluation on diverse refugee populations
-- Integration with existing humanitarian information systems
-- Real-time adaptation based on placement outcomes
-- Expansion to additional host countries and contexts
-
-For detailed technical documentation, see [docs/technical_overview.md](docs/technical_overview.md)
+MIT License - see [LICENSE](LICENSE) file for details.

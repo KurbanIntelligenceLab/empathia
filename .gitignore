@@ -1,15 +1,22 @@
-# Python
+# ==================== Python ====================
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
+*.pyc
+
+# ==================== Virtual Environments ====================
 env/
 venv/
 ENV/
+env.bak/
+venv.bak/
 .venv
+pipenv/
+.conda/
 
-# Distribution
+# ==================== Package Distribution ====================
 build/
 develop-eggs/
 dist/
@@ -22,57 +29,158 @@ parts/
 sdist/
 var/
 wheels/
+share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+MANIFEST
 
-# Testing
+# ==================== Testing & Coverage ====================
 .pytest_cache/
 .coverage
+.coverage.*
 htmlcov/
 .tox/
+.nox/
 .hypothesis/
+coverage.xml
+*.cover
+.cache
+nosetests.xml
 
-# Jupyter
-.ipynb_checkpoints
+# ==================== Jupyter Notebooks ====================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
 *.ipynb_checkpoints
 
-# IDE
-.idea/
+# ==================== IDEs & Editors ====================
+# VSCode
 .vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
 *.swp
 *.swo
+*~
 
-# OS
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ==================== Operating Systems ====================
+# macOS
 .DS_Store
-Thumbs.db
+.AppleDouble
+.LSOverride
+._*
 
-# Data
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+.Trash-*
+
+# ==================== Data Files ====================
+# Keep sample data, ignore large datasets
 data/raw/
+data/processed/
 *.csv
 *.xlsx
-!data/sample/*
+*.xls
+!data/samples/*.csv
+!data/samples/*.xlsx
 
-# Models
+# ==================== Model Files ====================
 models/
 checkpoints/
 *.pth
 *.pt
+*.pkl
+*.pickle
+*.h5
+*.hdf5
 *.bin
+*.ckpt
+*.safetensors
 
-# Logs
+# ==================== Logs & Temporary ====================
 logs/
 *.log
-
-# Temporary
+*.out
+*.err
 tmp/
 temp/
 *.tmp
+*.bak
+*.backup
+*.cache
 
-# Environment
+# ==================== Environment Variables ====================
 .env
 .env.*
+!.env.example
+.envrc
+*.local
 
-# Results (keep samples)
-results/processed/
+# ==================== Results & Outputs ====================
+# Keep sample results
+results/*/
 !results/sample/
+outputs/
+!outputs/sample/
+
+# ==================== Documentation Build ====================
+docs/_build/
+docs/_static/
+docs/_templates/
+site/
+
+# ==================== LaTeX ====================
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.synctex
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+
+# ==================== Project Specific ====================
+# Large data files
+data/Anonymized HHM Data_All_*.csv
+
+# Processing outputs
+figure_generation/output/
+webpage/build/
+
+# Credentials and secrets
+credentials/
+secrets/
+*.key
+*.pem
+*.cert
