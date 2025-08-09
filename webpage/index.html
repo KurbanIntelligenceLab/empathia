@@ -11,38 +11,39 @@
 </head>
 
 <body>
-    <!-- Title Section with Gray Background like LLaVA -->
     <div class="title-section text-center pt-5 pb-4">
         <div class="container">
-                <h1 class="display-3 font-weight-bold mb-3">EMPATHIA:<br>Multi-Faceted Human-AI Collaboration for Refugee Integration</h1>
-                <p class="text-danger mb-2">Submitted to NeurIPS 2025 Creative AI Track: Humanity</p>
+            <div class="row">
+                <div class="col-md-9">
+                <h1 class="display-3 font-weight-bold mb-2" style="margin-left: -11px !important;">EMPATHIA: Multi-Faceted Human-AI<br>Collaboration for Refugee Integration</h1>
+                <p class="submission-text mb-2" style="margin-left: -9px !important;">Submitted to NeurIPS 2025 Creative AI Track: Humanity</p>
                 
-                <!-- Authors -->
-                <div class="authors mb-2">
+                <div class="authors mb-2" style="margin-left: -9px !important;">
                     <div class="author-group">
                         <a href="https://bmrayan.com" target="_blank" class="author-name">Mohamed Rayan Barhdadi</a><sup>1</sup>
                         <span class="mx-3">·</span>
                         <a href="https://web.itu.edu.tr/tuncelm/" target="_blank" class="author-name">Mehmet Tuncel</a><sup>2</sup>
                         <span class="mx-3">·</span>
+                        <a href="https://engineering.tamu.edu/electrical/profiles/eserpedin.html" target="_blank" class="author-name">Erchin Serpedin</a><sup>1</sup>
+                        <span class="mx-3">·</span>
                         <a href="https://hasankurban.com" target="_blank" class="author-name">Hasan Kurban</a><sup>3</sup>
                     </div>
                 </div>
                 
-                <div class="affiliations small text-muted mb-3">
-                    <sup>1</sup>Texas A&M University, Qatar
+                <div class="affiliations small text-muted mb-3" style="margin-left: -9px !important;">
+                    <sup>1</sup>Texas A&M University
                     <span class="mx-2">|</span>
-                    <sup>2</sup>Istanbul Technical University, Turkey
+                    <sup>2</sup>Istanbul Technical University
                     <span class="mx-2">|</span>
-                    <sup>3</sup>Hamad Bin Khalifa University, Qatar
+                    <sup>3</sup>Hamad Bin Khalifa University
                 </div>
                 
-                <!-- Buttons -->
-                <div class="buttons mb-4">
+                <div class="buttons mb-3" style="margin-left: -15px !important;">
                     <a href="../EMPATHIA_Paper.pdf" class="btn btn-primary mx-1">
                         <img src="arxiv_icon.png" class="btn-icon" alt="arXiv"> arXiv
                     </a>
                     <a href="https://github.com/KurbanIntelligenceLab/empathia" class="btn btn-secondary mx-1">
-                        <i class="fab fa-github"></i> Code
+                        <i class="fab fa-github"></i> <span>Code</span>
                     </a>
                     <a href="#demo" class="btn btn-info mx-1">
                         <img src="demo_icon.png" class="btn-icon" alt="Demo"> Demo
@@ -55,211 +56,356 @@
                     </a>
                 </div>
                 
-                <!-- Module Buttons -->
-                <div class="module-buttons">
-                    <a href="#demo" class="btn btn-seed mr-1">
-                        SEED
-                    </a>
-                    <a class="btn btn-rise mx-1" onclick="return false;">
-                        👀 RISE
-                    </a>
-                    <a class="btn btn-thrive ml-1" onclick="return false;">
-                        👀 THRIVE
-                    </a>
+                <div style="display: inline-flex; align-items: center;">
+                    <div class="module-buttons mb-2">
+                        <a href="#demo" class="btn btn-seed mr-1">
+                            SEED
+                        </a>
+                        <a class="btn btn-rise mx-1" onclick="return false;">
+                            👀 RISE
+                        </a>
+                        <a class="btn btn-thrive ml-1" onclick="return false;">
+                            👀 THRIVE
+                        </a>
+                    </div>
+                    <span class="text-muted" style="font-style: italic; margin-left: 13px; position: relative; top: -6.8px;">more soon...</span>
                 </div>
-                <div class="text-center mt-2">
-                    <span class="text-muted" style="font-style: italic;">more soon...</span>
                 </div>
+                <div class="col-md-3">
+                    <div class="cube-container">
+                        <div class="cube">
+                            <div class="cube-face cube-face-front">
+                                <i class="fas fa-globe-americas"></i>
+                                <span>Cultural</span>
+                            </div>
+                            <div class="cube-face cube-face-right">
+                                <i class="fas fa-heart"></i>
+                                <span>Emotional</span>
+                            </div>
+                            <div class="cube-face cube-face-left">
+                                <i class="fas fa-balance-scale"></i>
+                                <span>Ethical</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
-    <!-- Main Content -->
-    <div class="container mt-5">
-            <!-- Abstract -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-10">
+    <div class="container mt-2">
+        <div class="row mb-2">
+            <div class="col-md-6">
+                <div class="content-section">
                     <h3>Abstract</h3>
                     <p class="text-justify">
-                        Current AI approaches to refugee integration optimize narrow objectives such as employment and fail to capture the cultural, emotional, and ethical dimensions critical for long-term success. We introduce <strong>EMPATHIA</strong> (<strong>E</strong>nriched <strong>M</strong>ultimodal <strong>P</strong>athways for <strong>A</strong>gentic <strong>T</strong>hinking in <strong>H</strong>umanitarian <strong>I</strong>mmigrant <strong>A</strong>ssistance), a multi-agent framework designed to preserve human dignity in high-stakes humanitarian decision-making. Grounded in Kegan's Constructive Developmental Theory, EMPATHIA decomposes integration into three modules: <strong>SEED</strong> (Socio-cultural Entry and Embedding Decision) for initial placement, <strong>RISE</strong> (Rapid Integration and Self-sufficiency Engine) for early independence, and <strong>THRIVE</strong> (Transcultural Harmony and Resilience through Integrated Values and Engagement) for sustained outcomes. SEED employs a selector–validator architecture with three specialized agents—emotional, cultural, and ethical—that deliberate transparently to produce interpretable recommendations. Experiments on the UN Kakuma dataset (15,000+ individuals) and implementation on 534 refugee profiles with 150+ socioeconomic variables achieved 89.3% validation convergence and explainable assessments across five host countries. EMPATHIA's weighted integration of cultural, emotional, and ethical factors balances competing value systems while supporting practitioner–AI collaboration. By augmenting rather than replacing human expertise, EMPATHIA provides a generalizable framework for AI-driven allocation tasks where multiple values must be reconciled.
+                        Current AI approaches to refugee integration optimize narrow objectives such as employment and fail to capture the cultural, emotional, and ethical dimensions critical for long-term success. We introduce <strong>EMPATHIA</strong> (<strong>E</strong>nriched <strong>M</strong>ultimodal <strong>P</strong>athways for <strong>A</strong>gentic <strong>T</strong>hinking in <strong>H</strong>umanitarian <strong>I</strong>mmigrant <strong>A</strong>ssistance), a multi-agent framework addressing the central Creative AI question: how do we preserve human dignity when machines participate in life-altering decisions? Grounded in Kegan's Constructive Developmental Theory, EMPATHIA decomposes integration into three modules: <strong>SEED</strong> (Socio-cultural Entry and Embedding Decision) for initial placement, <strong>RISE</strong> (Rapid Integration and Self-sufficiency Engine) for early independence, and <strong>THRIVE</strong> (Transcultural Harmony and Resilience through Integrated Values and Engagement) for sustained outcomes. SEED employs a selector–validator architecture with three specialized agents—emotional, cultural, and ethical—that deliberate transparently to produce interpretable recommendations. Experiments on the UN Kakuma dataset (15,026 individuals, 7,960 eligible adults 15+ per ILO/UNHCR standards) and implementation on 6,359 working-age refugees (15+) with 150+ socioeconomic variables achieved 87.4% validation convergence and explainable assessments across five host countries. EMPATHIA's weighted integration of cultural emotional, and ethical factors balances competing value systems while supporting practitioner–AI collaboration. By augmenting rather than replacing human expertise, EMPATHIA provides a generalizable framework for AI-driven allocation tasks where multiple values must be reconciled.
                     </p>
                 </div>
             </div>
-
-            <!-- Architecture -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-10">
+            <div class="col-md-6">
+                <div class="content-section">
                     <h3>System Architecture</h3>
                     <div class="text-center mb-3">
-                        <img src="../figures/prev4.png" class="img-fluid" alt="EMPATHIA Framework" style="max-width: 100%;">
+                        <img src="figures/EMPATHIA_framework.png" class="img-fluid" alt="EMPATHIA Framework" style="max-width: 100%;">
                     </div>
                     <p class="text-justify">
                         EMPATHIA's Human-AI Collaborative Framework demonstrates how artificial intelligence amplifies rather than replaces human wisdom through three developmental phases: SEED (initial placement honoring individual narratives), RISE (identity construction through meaningful participation), and THRIVE (transcultural harmony enriching both refugee and host communities).
                     </p>
                 </div>
             </div>
+        </div>
 
-            <!-- Demo Section -->
-            <div id="demo" class="row justify-content-center mb-5">
-                <div class="col-lg-10">
-                    <h3>Interactive Demo: <span style="color: #5DADE2;">SEED Module</span></h3>
+        <div class="row mb-2" style="padding-bottom: 28px;">
+            <div class="col-12">
+                <div class="content-section" id="demo">
+                    <h3>Interactive Demo: <span style="color: #5DADE2;">SEED Module Assessment</span></h3>
                     
-                    <!-- Profile Input -->
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h5 class="card-title">Configure Refugee Profile</h5>
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <div class="form-group">
-                                        <label>Age</label>
-                                        <select class="form-control" id="age-select">
-                                            <option>18-24</option>
-                                            <option selected>25-34</option>
-                                            <option>35-44</option>
-                                            <option>45-54</option>
-                                            <option>55+</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="form-group">
-                                        <label>Gender</label>
-                                        <select class="form-control" id="gender-select">
-                                            <option>Male</option>
-                                            <option>Female</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="form-group">
-                                        <label>Country of Origin</label>
-                                        <select class="form-control" id="origin-select">
-                                            <option>Somalia</option>
-                                            <option>South Sudan</option>
-                                            <option>Syria</option>
-                                            <option>Afghanistan</option>
-                                            <option>DR Congo</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="form-group">
-                                        <label>Education Level</label>
-                                        <select class="form-control" id="education-select">
-                                            <option>None</option>
-                                            <option>Primary</option>
-                                            <option>Secondary</option>
-                                            <option>University</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <div class="form-group">
-                                        <label>English Proficiency</label>
-                                        <select class="form-control" id="english-select">
-                                            <option>Yes</option>
-                                            <option>No</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="text-center mb-3">
-                                <button class="btn btn-assessment" onclick="runAssessment()">Run Multi-Perspective Assessment</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Results Display -->
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="card text-center">
+                    <div style="display: flex; gap: 20px; width: 100%; align-items: flex-start;">
+                        <div style="width: 40%; min-width: 400px;">
+                            <div class="card" style="border: 2px solid #5DADE2;">
                                 <div class="card-body">
-                                    <h6>Emotional</h6>
-                                    <h2 id="emotional-score">-</h2>
+                                    <h5 class="mb-3" style="color: #2E86C1;">
+                                        <i class="fas fa-user-check"></i> Refugee Profile & Assessment
+                                    </h5>
+                                    
+                                    <div class="mb-3">
+                                        <label for="refugee-code-select" style="font-weight: 600; color: #2E86C1;">Select Profile:</label>
+                                        <select class="form-control" id="refugee-code-select" style="border: 2px solid #5DADE2; font-weight: 600;">
+                                            <option value="">Choose an anonymized refugee profile...</option>
+                                        </select>
+                                    </div>
+                                    
+                                    <button class="btn btn-assessment btn-block mb-3" onclick="runSEEDAssessment()" id="run-assessment-btn" disabled style="padding: 10px;">
+                                        <i class="fas fa-brain"></i> Run SEED Assessment
+                                    </button>
+                                    
+                                    <hr>
+                                    
+                                    <h6 style="color: #2E86C1; margin-bottom: 15px;">Profile Information</h6>
+                                    <div id="profile-features" style="background-color: #f8f9fa; padding: 10px; border-radius: 5px; margin-bottom: 10px;">
+                                        <p class="text-muted mb-0">Select a refugee profile to view details</p>
+                                    </div>
+                                    
+                                    <div class="alert alert-danger" style="padding: 8px 12px; margin-bottom: 15px; font-size: 0.85rem;">
+                                        <i class="fas fa-exclamation-triangle"></i>
+                                        <strong>Data Disclaimer:</strong> This demo employs synthetic data designed to emulate characteristics of UN refugee datasets for methodological demonstration. While our paper utilizes authentic UNHCR data, privacy constraints necessitate the use of synthetic data for this public demonstration. Both authentic and synthetic datasets were processed through our SEED module. The presented framework and analytical outcomes are affected by data quality; performance metrics would be enhanced with richer feature representations. We cannot distribute genuine UNHCR data due to privacy restrictions. Researchers seeking access to authentic UN Kakuma refugee data should submit formal requests directly to UNHCR (see Dataset section). The demonstration illustrates SEED module reasoning and potential scalability.
+                                    </div>
+                                    
+                                    <h6 style="color: #2E86C1; margin-bottom: 15px;">Assessment Scores</h6>
+                                    <div style="display: flex; gap: 10px; margin-bottom: 20px;">
+                                        <div style="flex: 1;">
+                                            <div class="card text-center" style="border: 2px solid #5DADE2;">
+                                                <div class="card-body" style="padding: 8px;">
+                                                    <i class="fas fa-globe-americas" style="color: #5DADE2; font-size: 18px;"></i>
+                                                    <h6 style="margin: 3px 0; font-size: 0.75rem;">Cultural</h6>
+                                                    <h3 id="cultural-score" style="margin: 0; font-size: 1.3rem; color: #5DADE2;">-</h3>
+                                                    <small style="color: #666; font-size: 0.65rem;">/10</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="flex: 1;">
+                                            <div class="card text-center" style="border: 2px solid #F5B041;">
+                                                <div class="card-body" style="padding: 8px;">
+                                                    <i class="fas fa-heart" style="color: #F5B041; font-size: 18px;"></i>
+                                                    <h6 style="margin: 3px 0; font-size: 0.75rem;">Emotional</h6>
+                                                    <h3 id="emotional-score" style="margin: 0; font-size: 1.3rem; color: #F5B041;">-</h3>
+                                                    <small style="color: #666; font-size: 0.65rem;">/10</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="flex: 1;">
+                                            <div class="card text-center" style="border: 2px solid #BB8FCE;">
+                                                <div class="card-body" style="padding: 8px;">
+                                                    <i class="fas fa-balance-scale" style="color: #BB8FCE; font-size: 18px;"></i>
+                                                    <h6 style="margin: 3px 0; font-size: 0.75rem;">Ethical</h6>
+                                                    <h3 id="ethical-score" style="margin: 0; font-size: 1.3rem; color: #BB8FCE;">-</h3>
+                                                    <small style="color: #666; font-size: 0.65rem;">/10</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="card" id="recommendation-card" style="display: none; background-color: #e8f5e9; border: 2px solid #4caf50; margin-bottom: 9px;">
+                                        <div class="card-body text-center" style="padding: 15px;">
+                                            <h6 style="color: #2e7d32; margin-bottom: 10px;">
+                                                <i class="fas fa-check-circle"></i> Recommendation
+                                            </h6>
+                                            <h5 id="recommended-country" style="margin: 0; color: #2e7d32;">-</h5>
+                                            <h3 id="overall-score" style="margin: 5px 0; color: #2e7d32;">-</h3>
+                                            <small style="color: #2e7d32;">Overall Score</small>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="card text-center">
-                                <div class="card-body">
-                                    <h6>Cultural</h6>
-                                    <h2 id="cultural-score">-</h2>
+                        
+                        <div style="width: 60%; min-width: 500px;">
+                            <div class="card" style="border: 2px solid #2E86C1;">
+                                <div class="card-body" id="assessment-results">
+                                    <h5 class="mb-3" style="color: #2E86C1;">
+                                        <i class="fas fa-brain"></i> Multi-Agent Assessment Reasoning
+                                    </h5>
+                                    <div class="alert alert-info" style="background-color: #e3f2fd; border: none;">
+                                        <i class="fas fa-info-circle"></i> Select a refugee profile and run the assessment to see detailed reasoning from each agent
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card text-center">
-                                <div class="card-body">
-                                    <h6>Ethical</h6>
-                                    <h2 id="ethical-score">-</h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="card mt-3">
-                        <div class="card-body" id="assessment-results">
-                            <p class="text-muted text-center mb-0">Configure profile and run assessment to see recommendations</p>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <!-- Results -->
-            <div id="results" class="row justify-content-center mb-5">
-                <div class="col-lg-10">
-                    <h3>Experimental Results</h3>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <table class="table table-bordered">
-                                <tr>
-                                    <td>Total Refugees Assessed</td>
-                                    <td><strong>1,122</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Validation Convergence</td>
-                                    <td><strong>89.3%</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Processing Time</td>
-                                    <td><strong>2.3 min</strong></td>
-                                </tr>
-                            </table>
+        <div class="row mb-2" style="padding-bottom: 28px;">
+            <div class="col-12">
+                <div class="content-section" id="results" style="padding: 8px 12px 10px 12px;">
+                    <h3 style="margin-bottom: 8px;">Multi-Agent Deliberation Quality</h3>
+                    <div style="margin-top: 6px;">
+                        <style>
+                            .mini-table {
+                                font-size: 0.62rem;
+                                border-collapse: collapse;
+                                width: 100%;
+                                margin-bottom: 6px;
+                            }
+                            .mini-table th, .mini-table td {
+                                padding: 2px 3px;
+                                text-align: center;
+                                border: 1px solid #dee2e6;
+                                line-height: 1.2;
+                            }
+                            .mini-table thead th {
+                                background: #5DADE2;
+                                color: white;
+                                font-weight: 600;
+                                font-size: 0.65rem;
+                            }
+                            .mini-table td:first-child {
+                                text-align: left;
+                                padding-left: 4px;
+                                font-size: 0.6rem;
+                            }
+                            .m-h {
+                                font-weight: 700;
+                                color: #27ae60;
+                            }
+                            .m-s {
+                                text-decoration: underline;
+                                color: #2980b9;
+                            }
+                        </style>
+                        
+                        <div style="display: flex; gap: 6px; margin-bottom: 6px;">
+                            <div style="flex: 1;">
+                                <table class="mini-table">
+                                    <thead>
+                                        <tr><th colspan="7">Profile Complexity</th></tr>
+                                        <tr><th>Cat</th><th>N</th><th>Conv</th><th>Iter</th><th>Coh</th><th>Agr</th><th>Dep</th></tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr><td>Low(&lt;5)</td><td>892</td><td class="m-s">93.7</td><td class="m-h">1.12</td><td class="m-s">.94</td><td class="m-s">91.3</td><td>3.2</td></tr>
+                                        <tr><td>Med(5-10)</td><td>2647</td><td>89.8</td><td>1.21</td><td>.91</td><td>87.2</td><td>4.1</td></tr>
+                                        <tr><td>High(11-15)</td><td>1283</td><td>86.4</td><td>1.34</td><td>.88</td><td>83.6</td><td>4.8</td></tr>
+                                        <tr><td>V.High(&gt;15)</td><td>295</td><td>81.2</td><td>1.67</td><td>.84</td><td>78.9</td><td class="m-s">5.6</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div style="flex: 1;">
+                                <table class="mini-table">
+                                    <thead>
+                                        <tr><th colspan="7">Validator Feedback</th></tr>
+                                        <tr><th>Cat</th><th>N</th><th>Conv</th><th>Iter</th><th>Coh</th><th>Agr</th><th>Dep</th></tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr><td>No Issues</td><td>4087</td><td class="m-h">100</td><td class="m-h">1.00</td><td class="m-s">.94</td><td class="m-s">91.8</td><td>4.2</td></tr>
+                                        <tr><td>Minor Ref</td><td>783</td><td>67.3</td><td>2.00</td><td>.86</td><td>82.4</td><td>4.3</td></tr>
+                                        <tr><td>Major Rev</td><td>247</td><td>48.2</td><td>3.21</td><td>.78</td><td>74.6</td><td>4.5</td></tr>
+                                        <tr><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
-                        <div class="col-md-6">
-                            <table class="table table-bordered">
-                                <thead>
-                                    <tr>
-                                        <th>Country</th>
-                                        <th>Recommendations</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr><td>Canada</td><td>28.4%</td></tr>
-                                    <tr><td>Germany</td><td>24.1%</td></tr>
-                                    <tr><td>Sweden</td><td>21.7%</td></tr>
-                                </tbody>
-                            </table>
+
+                        <div style="display: flex; gap: 6px; margin-bottom: 6px;">
+                            <div style="flex: 1;">
+                                <table class="mini-table">
+                                    <thead>
+                                        <tr><th colspan="7">Decision Difficulty</th></tr>
+                                        <tr><th>Cat</th><th>N</th><th>Conv</th><th>Iter</th><th>Coh</th><th>Agr</th><th>Dep</th></tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr><td>Unanimous</td><td>1847</td><td class="m-h">96.3</td><td class="m-s">1.08</td><td class="m-h">.96</td><td class="m-h">94.7</td><td>3.8</td></tr>
+                                        <tr><td>Strong Con</td><td>2103</td><td>89.2</td><td>1.19</td><td>.91</td><td>86.8</td><td>4.2</td></tr>
+                                        <tr><td>Mod Div</td><td>983</td><td>83.7</td><td>1.42</td><td>.86</td><td>81.2</td><td>4.6</td></tr>
+                                        <tr><td>High Div</td><td>184</td><td>72.4</td><td>1.89</td><td>.79</td><td>73.4</td><td class="m-h">5.1</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div style="flex: 1;">
+                                <table class="mini-table">
+                                    <thead>
+                                        <tr><th colspan="7">Reasoning Depth</th></tr>
+                                        <tr><th>Cat</th><th>N</th><th>Conv</th><th>Iter</th><th>Coh</th><th>Agr</th><th>Dep</th></tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr><td>Surface(1-2)</td><td>412</td><td>82.3</td><td>1.43</td><td>.83</td><td>80.7</td><td class="m-h">2.0</td></tr>
+                                        <tr><td>Mod(3-4)</td><td>3126</td><td>89.7</td><td>1.22</td><td>.91</td><td>87.2</td><td>3.5</td></tr>
+                                        <tr><td>Deep(5-6)</td><td>1394</td><td>91.2</td><td class="m-s">1.19</td><td>.93</td><td>88.9</td><td>5.5</td></tr>
+                                        <tr><td>V.Deep(7+)</td><td>185</td><td class="m-s">93.6</td><td>1.24</td><td class="m-h">.95</td><td class="m-h">91.3</td><td class="m-h">7.8</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div style="display: flex; gap: 6px; margin-bottom: 6px;">
+                            <div style="flex: 1;">
+                                <table class="mini-table">
+                                    <thead>
+                                        <tr><th colspan="7">Perspective Balance</th></tr>
+                                        <tr><th>Cat</th><th>N</th><th>Conv</th><th>Iter</th><th>Coh</th><th>Agr</th><th>Dep</th></tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr><td>Aligned(±0.5)</td><td>1638</td><td class="m-h">94.8</td><td class="m-h">1.11</td><td class="m-h">.95</td><td class="m-h">93.2</td><td>4.0</td></tr>
+                                        <tr><td>Minor(±1.0)</td><td>2314</td><td>89.3</td><td>1.23</td><td>.90</td><td>86.7</td><td>4.3</td></tr>
+                                        <tr><td>Mod(±2.0)</td><td>947</td><td>84.6</td><td>1.38</td><td>.87</td><td>82.1</td><td>4.5</td></tr>
+                                        <tr><td>High(&gt;±2.0)</td><td>218</td><td>76.2</td><td>1.71</td><td>.82</td><td>75.3</td><td class="m-h">4.9</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div style="flex: 1;">
+                                <table class="mini-table">
+                                    <thead>
+                                        <tr><th colspan="7">Explanation Quality</th></tr>
+                                        <tr><th>Cat</th><th>N</th><th>Conv</th><th>Iter</th><th>Coh</th><th>Agr</th><th>Dep</th></tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr><td>High Inter</td><td>3471</td><td class="m-h">92.8</td><td class="m-h">1.16</td><td class="m-h">.94</td><td class="m-h">90.3</td><td class="m-s">4.3</td></tr>
+                                        <tr><td>Interpretable</td><td>1293</td><td>85.3</td><td>1.31</td><td>.88</td><td>84.6</td><td>4.1</td></tr>
+                                        <tr><td>Partial Inter</td><td>353</td><td>78.6</td><td>1.58</td><td>.81</td><td>77.9</td><td>3.8</td></tr>
+                                        <tr><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div style="display: flex; gap: 6px;">
+                            <div style="flex: 1;">
+                                <table class="mini-table">
+                                    <thead>
+                                        <tr><th colspan="7">Reasoning Patterns</th></tr>
+                                        <tr><th>Cat</th><th>N</th><th>Conv</th><th>Iter</th><th>Coh</th><th>Agr</th><th>Dep</th></tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr><td>Evidence</td><td>3892</td><td class="m-s">91.4</td><td class="m-s">1.18</td><td class="m-s">.93</td><td class="m-s">89.7</td><td class="m-s">4.4</td></tr>
+                                        <tr><td>Theory</td><td>847</td><td>86.2</td><td>1.32</td><td>.88</td><td>84.3</td><td>3.9</td></tr>
+                                        <tr><td>Mixed</td><td>378</td><td>83.7</td><td>1.46</td><td>.85</td><td>81.6</td><td>4.1</td></tr>
+                                        <tr><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div style="flex: 1;">
+                                <table class="mini-table">
+                                    <thead>
+                                        <tr><th colspan="7">Bias Detection & Consistency</th></tr>
+                                        <tr><th>Cat</th><th>N</th><th>Conv</th><th>Iter</th><th>Coh</th><th>Agr</th><th>Dep</th></tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr><td>No Bias</td><td>4953</td><td class="m-s">89.8</td><td>1.23</td><td class="m-s">.91</td><td class="m-s">87.1</td><td>4.2</td></tr>
+                                        <tr><td>Bias Corr</td><td>164</td><td>82.1</td><td>1.67</td><td>.85</td><td>80.3</td><td class="m-h">4.4</td></tr>
+                                        <tr><td>Temp Stable</td><td>4782</td><td class="m-h">90.2</td><td class="m-s">1.22</td><td class="m-h">.92</td><td class="m-h">87.8</td><td>4.2</td></tr>
+                                        <tr><td>Minor Fluct</td><td>335</td><td>81.3</td><td>1.48</td><td>.84</td><td>79.6</td><td>4.3</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-
-            <!-- Dataset Section -->
-            <div id="dataset" class="row justify-content-center mb-5">
-                <div class="col-lg-10">
-                    <h3>Dataset</h3>
-                    <p class="text-justify">
-                        The evaluation was conducted on the United Nations High Commissioner for Refugees (UNHCR) dataset comprising detailed profiles of 15,000+ individuals from diverse demographic backgrounds.
-                        For access to the dataset, please request it directly <a href="https://microdata.unhcr.org/index.php/catalog/302?utm_source" target="_blank">here</a>. Please request it in the UNHCR library.
+                    <div style="margin-top: 6px; padding: 4px; background-color: #f8f9fa; border-radius: 4px;">
+                        <p style="font-size: 0.65rem; color: #495057; margin: 0; line-height: 1.2;">
+                            <span style="color: #27ae60;">●</span> Best
+                            <span style="color: #2980b9; text-decoration: underline;">●</span> 2nd
+                            <strong>|</strong> N=6,359 • 87.4% conv
+                        </p>
+                    </div>
+                    <p class="text-justify" style="margin-top: 8px;">
+                        <strong>Table: Multi-Agent Deliberation Quality Across Reasoning Complexity Dimensions.</strong> Profile Complexity: decision factor count; Decision Difficulty: agent score variance (unanimous: ±0.2, consensus: ±0.5, divergence: >±1.0); Validator Feedback: resolution iterations; Reasoning Depth: inference levels (1–7+). Bold = highest, underline = second highest. All p<0.001, bootstrap n=1000.
                     </p>
                 </div>
             </div>
+        </div>
 
-            <!-- Citation -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-10">
+        <div class="row mb-2">
+            <div class="col-md-6">
+                <div class="content-section" id="dataset">
+                    <h3>Dataset</h3>
+                    <p class="text-justify">
+                        The evaluation was conducted on the <strong>UN Kakuma dataset</strong> from the United Nations High Commissioner for Refugees (UNHCR), comprising detailed profiles of 15,026 individuals from 12 countries of origin, aged 0-95, with diverse educational, skill, and family backgrounds.
+                        For access to the dataset, please request it directly <a href="https://microdata.unhcr.org/index.php/catalog/302?utm_source" target="_blank">here</a> from the UNHCR library.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="content-section">
                     <h3>Citation</h3>
                     <div class="position-relative">
                         <button class="btn btn-sm btn-copy" onclick="copyCitation()">
@@ -274,26 +420,27 @@
                     </div>
                 </div>
             </div>
+        </div>
 
-            <!-- Contact -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-10">
+        <div class="row mb-2" style="padding-bottom: 56px;">
+            <div class="col-12">
+                <div class="content-section">
                     <h3>Contact</h3>
-                    <div class="row text-center">
-                        <div class="col-md-4">
-                            <strong>Mohamed Rayan Barhdadi</strong><br>
-                            Texas A&M University, Qatar<br>
-                            <a href="mailto:rayan.barhdadi@tamu.edu">rayan.barhdadi@tamu.edu</a>
+                    <div style="display: flex; justify-content: space-around; align-items: flex-start;">
+                        <div style="text-align: center;">
+                            <strong style="font-size: 1.1rem;">Mohamed Rayan Barhdadi</strong><br>
+                            <a href="mailto:rayan.barhdadi@tamu.edu" style="color: #007bff;">rayan.barhdadi@tamu.edu</a><br>
+                            <span style="color: #6c757d; font-size: 0.95rem;">Texas A&M University</span>
                         </div>
-                        <div class="col-md-4">
-                            <strong>Mehmet Tuncel</strong><br>
-                            Istanbul Technical University, Turkey<br>
-                            <a href="mailto:tuncelm@itu.edu.tr">tuncelm@itu.edu.tr</a>
+                        <div style="text-align: center;">
+                            <strong style="font-size: 1.1rem;">Mehmet Tuncel</strong><br>
+                            <a href="mailto:tuncelm@itu.edu.tr" style="color: #007bff;">tuncelm@itu.edu.tr</a><br>
+                            <span style="color: #6c757d; font-size: 0.95rem;">Istanbul Technical University</span>
                         </div>
-                        <div class="col-md-4">
-                            <strong>Hasan Kurban</strong><br>
-                            Hamad Bin Khalifa University, Qatar<br>
-                            <a href="mailto:hkurban@hbku.edu.qa">hkurban@hbku.edu.qa</a>
+                        <div style="text-align: center;">
+                            <strong style="font-size: 1.1rem;">Hasan Kurban</strong><br>
+                            <a href="mailto:hkurban@hbku.edu.qa" style="color: #007bff;">hkurban@hbku.edu.qa</a><br>
+                            <span style="color: #6c757d; font-size: 0.95rem;">Hamad Bin Khalifa University</span>
                         </div>
                     </div>
                 </div>
