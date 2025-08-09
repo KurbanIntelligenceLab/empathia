@@ -6,7 +6,7 @@
 ²Istanbul Technical University  
 ³Hamad Bin Khalifa University
 
-*Corresponding author: mohamed.barhdadi@tamu.edu*
+*Corresponding author: hkurban@hbku.edu.qa*
 
 **Submitted to NeurIPS 2025 Creative AI Track: Humanity**  
 **Paper:** [EMPATHIA_Paper.pdf](../EMPATHIA_Paper.pdf) | **Demo:** [Interactive Web Application](webpage/index.html)
