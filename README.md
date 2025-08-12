@@ -31,19 +31,56 @@ We introduce EMPATHIA (Enriched Multimodal Pathways for Agentic Thinking in Huma
 
 ### Multi-Agent Deliberation Quality by Reasoning Complexity
 
-| **Reasoning Complexity & Decision Analysis** | | | | | | | **Validation Mechanism & Quality Metrics** | | | | | | |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| **Category** | **N** | **Conv** | **Iter** | **Coh** | **Agr** | **Depth** | **Category** | **N** | **Conv** | **Iter** | **Coh** | **Agr** | **Depth** |
-| *Profile Complexity* | | | | | | | *Validator Feedback* | | | | | | |
-| Low (<5) | 892 | 93.7 | 1.12 | .94 | 91.3 | 3.2±.8 | No Issues | 4087 | 100 | 1.00 | .94 | 91.8 | 4.2±.9 |
-| Medium (5-10) | 2647 | 89.8 | 1.21 | .91 | 87.2 | 4.1±.9 | Minor Refine | 783 | 67.3 | 2.00 | .86 | 82.4 | 4.3±.9 |
-| High (11-15) | 1283 | 86.4 | 1.34 | .88 | 83.6 | 4.8±1.1 | Major Revise | 247 | 48.2 | 3.21 | .78 | 74.6 | 4.5±1.0 |
-| Very High (>15) | 295 | 81.2 | 1.67 | .84 | 78.9 | 5.6±1.3 | | | | | | | |
-| *Decision Difficulty* | | | | | | | *Reasoning Depth (levels)* | | | | | | |
-| Unanimous | 1847 | 96.3 | 1.08 | .96 | 94.7 | 3.8±.7 | Surface (1-2) | 412 | 82.3 | 1.43 | .83 | 80.7 | 2.0±.3 |
-| Strong Consensus | 2103 | 89.2 | 1.19 | .91 | 86.8 | 4.2±.9 | Moderate (3-4) | 3126 | 89.7 | 1.22 | .91 | 87.2 | 3.5±.4 |
-| Mod. Divergence | 983 | 83.7 | 1.42 | .86 | 81.2 | 4.6±1.0 | Deep (5-6) | 1394 | 91.2 | 1.19 | .93 | 88.9 | 5.5±.5 |
-| High Divergence | 184 | 72.4 | 1.89 | .79 | 73.4 | 5.1±1.2 | Very Deep (7+) | 185 | 93.6 | 1.24 | .95 | 91.3 | 7.8±.9 |
+<table>
+<tr>
+<th colspan="7">Reasoning Complexity & Decision Analysis</th>
+<th colspan="7">Validation Mechanism & Quality Metrics</th>
+</tr>
+<tr>
+<th>Category</th><th>N</th><th>Conv</th><th>Iter</th><th>Coh</th><th>Agr</th><th>Depth</th>
+<th>Category</th><th>N</th><th>Conv</th><th>Iter</th><th>Coh</th><th>Agr</th><th>Depth</th>
+</tr>
+<tr>
+<td colspan="7"><i>Profile Complexity</i></td>
+<td colspan="7"><i>Validator Feedback</i></td>
+</tr>
+<tr>
+<td>Low (<5)</td><td>892</td><td>93.7</td><td>1.12</td><td>.94</td><td>91.3</td><td>3.2±.8</td>
+<td>No Issues</td><td>4087</td><td>100</td><td>1.00</td><td>.94</td><td>91.8</td><td>4.2±.9</td>
+</tr>
+<tr>
+<td>Medium (5-10)</td><td>2647</td><td>89.8</td><td>1.21</td><td>.91</td><td>87.2</td><td>4.1±.9</td>
+<td>Minor Refine</td><td>783</td><td>67.3</td><td>2.00</td><td>.86</td><td>82.4</td><td>4.3±.9</td>
+</tr>
+<tr>
+<td>High (11-15)</td><td>1283</td><td>86.4</td><td>1.34</td><td>.88</td><td>83.6</td><td>4.8±1.1</td>
+<td>Major Revise</td><td>247</td><td>48.2</td><td>3.21</td><td>.78</td><td>74.6</td><td>4.5±1.0</td>
+</tr>
+<tr>
+<td>Very High (>15)</td><td>295</td><td>81.2</td><td>1.67</td><td>.84</td><td>78.9</td><td>5.6±1.3</td>
+<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+</tr>
+<tr>
+<td colspan="7"><i>Decision Difficulty</i></td>
+<td colspan="7"><i>Reasoning Depth (levels)</i></td>
+</tr>
+<tr>
+<td>Unanimous</td><td>1847</td><td>96.3</td><td>1.08</td><td>.96</td><td>94.7</td><td>3.8±.7</td>
+<td>Surface (1-2)</td><td>412</td><td>82.3</td><td>1.43</td><td>.83</td><td>80.7</td><td>2.0±.3</td>
+</tr>
+<tr>
+<td>Strong Consensus</td><td>2103</td><td>89.2</td><td>1.19</td><td>.91</td><td>86.8</td><td>4.2±.9</td>
+<td>Moderate (3-4)</td><td>3126</td><td>89.7</td><td>1.22</td><td>.91</td><td>87.2</td><td>3.5±.4</td>
+</tr>
+<tr>
+<td>Mod. Divergence</td><td>983</td><td>83.7</td><td>1.42</td><td>.86</td><td>81.2</td><td>4.6±1.0</td>
+<td>Deep (5-6)</td><td>1394</td><td>91.2</td><td>1.19</td><td>.93</td><td>88.9</td><td>5.5±.5</td>
+</tr>
+<tr>
+<td>High Divergence</td><td>184</td><td>72.4</td><td>1.89</td><td>.79</td><td>73.4</td><td>5.1±1.2</td>
+<td>Very Deep (7+)</td><td>185</td><td>93.6</td><td>1.24</td><td>.95</td><td>91.3</td><td>7.8±.9</td>
+</tr>
+</table>
 
 **Legend:** Conv = Convergence (%), Iter = Avg Iterations, Coh = Coherence (0-1), Agr = Agent Agreement (%), Depth = Reasoning Depth (levels±SD)  
 *For complete metric definitions and detailed analysis, see the Supplementary Materials in the paper.*
