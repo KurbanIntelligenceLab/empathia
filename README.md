@@ -6,11 +6,11 @@
 ²Istanbul Technical University  
 ³Hamad Bin Khalifa University
 
-*Corresponding author: hkurban@hbku.edu.qa*  
-*For code and data inquiries: mohamed.barhdadi@tamu.edu*
+**Corresponding Author:** Dr. Hasan Kurban (hkurban@hbku.edu.qa)  
+**For Code & Data Inquiries:** Mohamed Rayan Barhdadi (rayan.barhdadi@tamu.edu)
 
 **Submitted to NeurIPS 2025 Creative AI Track: Humanity**  
-**Paper:** [EMPATHIA_Paper.pdf](../EMPATHIA_Paper.pdf) | **Demo:** [Interactive Web Application](webpage/index.html)
+**arXiv:** [arXiv:2508.07671](https://arxiv.org/abs/2508.07671) | **Demo:** [Interactive Web Application](webpage/index.html)
 
 ## TL;DR - Abstract
 
@@ -38,14 +38,11 @@ We introduce EMPATHIA (Enriched Multimodal Pathways for Agentic Thinking in Huma
 | Medium (5-10) | 2647 | 89.8 | 1.21 | 0.91 | 87.2 | 4.1 |
 | High (11-15) | 1283 | 86.4 | 1.34 | 0.88 | 83.6 | 4.8 |
 | Very High (>15) | 295 | 81.2 | 1.67 | 0.84 | 78.9 | 5.6 |
-| **Validator Feedback** | | | | | | |
-| No Issues | 4087 | 100.0 | 1.00 | 0.94 | 91.8 | 4.2 |
-| Minor Refinements | 783 | 67.3 | 2.00 | 0.86 | 82.4 | 4.3 |
-| Major Revisions | 247 | 48.2 | 3.21 | 0.78 | 74.6 | 4.5 |
 
 ### Agent-Specific Performance
 
 | Agent | Weight (%) | Mean Score | Std Dev | Alignment |
+|-------|------------|------------|---------|-----------|
 | Cultural    | 40    | 7.2        | 1.3     | 0.89      |
 | Emotional   | 30    | 6.8        | 1.5     | 0.86      |
 | Ethical     | 30    | 7.0        | 1.2     | 0.88      |
@@ -80,13 +77,13 @@ The selector-validator architecture ensures consistency through:
 git clone https://github.com/KurbanIntelligenceLab/empathia.git
 cd empathia
 
-# For web demo
+# Install Python dependencies
+pip install -r requirements.txt
+
+# For web demo (no installation required)
 cd webpage
 python -m http.server 8000
 # Visit http://localhost:8000
-
-# For Python implementation (optional)
-pip install -r requirements.txt
 ```
 
 ## Quick Start
@@ -126,10 +123,7 @@ empathia/
 │   ├── index.html             # Main interface
 │   ├── script.js              # Assessment logic (8 demo profiles)
 │   ├── styles.css             # Professional styling
-│   ├── figures/               # Framework diagrams
-│   │   ├── EMPATHIA_framework.png
-│   │   └── SEED.png
-│   └── *.png                  # UI icons
+│   └── figures/               # Framework diagrams
 ├── code/                       # Python implementation
 │   ├── assessment_prompts.py  # Agent prompt templates
 │   ├── profile_builder.py     # Profile processing
@@ -164,8 +158,9 @@ If you find this work useful, please cite:
 @article{barhdadi2025empathia,
   title  = {EMPATHIA: Multi-Faceted Human-AI Collaboration for Refugee Integration},
   author = {Barhdadi, Mohamed Rayan and Tuncel, Mehmet and Serpedin, Erchin and Kurban, Hasan},
+  journal = {arXiv preprint arXiv:2508.07671},
   year   = {2025},
-  note   = {Under review}
+  url    = {https://arxiv.org/abs/2508.07671}
 }
 ```
 
@@ -176,9 +171,11 @@ We thank the UNHCR for data access and the refugee communities whose experiences
 ## Contact
 
 For questions, collaboration, or feedback:
-- **Corresponding Author**: Dr. Hasan Kurban (hkurban@hbku.edu.qa)
-- **Code & Data Inquiries**: Mohamed Rayan Barhdadi (mohamed.barhdadi@tamu.edu)
-- **Repository**: https://github.com/KurbanIntelligenceLab/empathia
+
+**Corresponding Author:** Dr. Hasan Kurban (hkurban@hbku.edu.qa)  
+**For Code & Data Inquiries:** Mohamed Rayan Barhdadi (rayan.barhdadi@tamu.edu)
+
+**Repository:** https://github.com/KurbanIntelligenceLab/empathia
 
 ## License
 
