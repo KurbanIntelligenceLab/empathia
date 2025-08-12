@@ -140,6 +140,15 @@ body {
     border-color: #333333;
 }
 
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:visited {
+    background-color: #3a3a3a !important;
+    border-color: #3a3a3a !important;
+    color: white !important;
+    box-shadow: none !important;
+}
+
 .btn-secondary {
     background-color: #4a4a4a;
     border-color: #4a4a4a;
@@ -151,6 +160,15 @@ body {
     border-color: #333333;
 }
 
+.btn-secondary:active,
+.btn-secondary:focus,
+.btn-secondary:visited {
+    background-color: #3a3a3a !important;
+    border-color: #3a3a3a !important;
+    color: white !important;
+    box-shadow: none !important;
+}
+
 .btn-info {
     background-color: #4a4a4a;
     border-color: #4a4a4a;
@@ -160,6 +178,15 @@ body {
 .btn-info:hover {
     background-color: #333333;
     border-color: #333333;
+}
+
+.btn-info:active,
+.btn-info:focus,
+.btn-info:visited {
+    background-color: #3a3a3a !important;
+    border-color: #3a3a3a !important;
+    color: white !important;
+    box-shadow: none !important;
 }
 
 .btn-warning {
@@ -174,6 +201,15 @@ body {
     color: white;
 }
 
+.btn-warning:active,
+.btn-warning:focus,
+.btn-warning:visited {
+    background-color: #3a3a3a !important;
+    border-color: #3a3a3a !important;
+    color: white !important;
+    box-shadow: none !important;
+}
+
 .btn-success {
     background-color: #4a4a4a;
     border-color: #4a4a4a;
@@ -183,6 +219,15 @@ body {
 .btn-success:hover {
     background-color: #333333;
     border-color: #333333;
+}
+
+.btn-success:active,
+.btn-success:focus,
+.btn-success:visited {
+    background-color: #3a3a3a !important;
+    border-color: #3a3a3a !important;
+    color: white !important;
+    box-shadow: none !important;
 }
 
 /* Assessment button */
