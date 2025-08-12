@@ -10,7 +10,7 @@
 **For Code & Data Inquiries:** Mohamed Rayan Barhdadi (rayan.barhdadi@tamu.edu)
 
 **Submitted to NeurIPS 2025 Creative AI Track: Humanity**  
-**arXiv:** [arXiv:2508.07671](https://arxiv.org/abs/2508.07671) | **Demo:** [Interactive Web Application](webpage/index.html)
+**arXiv:** [arXiv:2508.07671](https://arxiv.org/abs/2508.07671) | **Demo:** [Interactive Web Application](https://kurbanintelligencelab.github.io/empathia/)
 
 ## TL;DR - Abstract
 
@@ -21,7 +21,7 @@ We introduce EMPATHIA (Enriched Multimodal Pathways for Agentic Thinking in Huma
 
 ## Key Features
 
-- **Multi-Agent Architecture**: Three specialized agents with weighted deliberation (Cultural 40%, Emotional 30%, Ethical 30%)
+- **Multi-Agent Architecture**: Three specialized agents with weighted deliberation (Cultural, Emotional, and Ethical agents)
 - **Transparent Reasoning**: Interpretable assessments with detailed explanations for each perspective
 - **Selector-Validator Design**: Ensures recommendation consistency and quality through iterative refinement
 - **Validated Performance**: 87.4% convergence rate on 6,359 refugee profiles from UN Kakuma dataset
@@ -29,23 +29,24 @@ We introduce EMPATHIA (Enriched Multimodal Pathways for Agentic Thinking in Huma
 
 ## Results Summary
 
-### Multi-Agent Deliberation Quality
+### Multi-Agent Deliberation Quality by Reasoning Complexity
 
-| Category | N | Convergence (%) | Iterations | Coherence | Agreement (%) | Depth |
-|----------|---|-----------------|------------|-----------|---------------|-------|
-| **Profile Complexity** | | | | | | |
-| Low (<5) | 892 | 93.7 | 1.12 | 0.94 | 91.3 | 3.2 |
-| Medium (5-10) | 2647 | 89.8 | 1.21 | 0.91 | 87.2 | 4.1 |
-| High (11-15) | 1283 | 86.4 | 1.34 | 0.88 | 83.6 | 4.8 |
-| Very High (>15) | 295 | 81.2 | 1.67 | 0.84 | 78.9 | 5.6 |
+| **Reasoning Complexity & Decision Analysis** | | | | | | | **Validation Mechanism & Quality Metrics** | | | | | | |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| **Category** | **N** | **Conv** | **Iter** | **Coh** | **Agr** | **Depth** | **Category** | **N** | **Conv** | **Iter** | **Coh** | **Agr** | **Depth** |
+| *Profile Complexity* | | | | | | | *Validator Feedback* | | | | | | |
+| Low (<5) | 892 | 93.7 | 1.12 | .94 | 91.3 | 3.2±.8 | No Issues | 4087 | 100 | 1.00 | .94 | 91.8 | 4.2±.9 |
+| Medium (5-10) | 2647 | 89.8 | 1.21 | .91 | 87.2 | 4.1±.9 | Minor Refine | 783 | 67.3 | 2.00 | .86 | 82.4 | 4.3±.9 |
+| High (11-15) | 1283 | 86.4 | 1.34 | .88 | 83.6 | 4.8±1.1 | Major Revise | 247 | 48.2 | 3.21 | .78 | 74.6 | 4.5±1.0 |
+| Very High (>15) | 295 | 81.2 | 1.67 | .84 | 78.9 | 5.6±1.3 | | | | | | | |
+| *Decision Difficulty* | | | | | | | *Reasoning Depth (levels)* | | | | | | |
+| Unanimous | 1847 | 96.3 | 1.08 | .96 | 94.7 | 3.8±.7 | Surface (1-2) | 412 | 82.3 | 1.43 | .83 | 80.7 | 2.0±.3 |
+| Strong Consensus | 2103 | 89.2 | 1.19 | .91 | 86.8 | 4.2±.9 | Moderate (3-4) | 3126 | 89.7 | 1.22 | .91 | 87.2 | 3.5±.4 |
+| Mod. Divergence | 983 | 83.7 | 1.42 | .86 | 81.2 | 4.6±1.0 | Deep (5-6) | 1394 | 91.2 | 1.19 | .93 | 88.9 | 5.5±.5 |
+| High Divergence | 184 | 72.4 | 1.89 | .79 | 73.4 | 5.1±1.2 | Very Deep (7+) | 185 | 93.6 | 1.24 | .95 | 91.3 | 7.8±.9 |
 
-### Agent-Specific Performance
-
-| Agent | Weight (%) | Mean Score | Std Dev | Alignment |
-|-------|------------|------------|---------|-----------|
-| Cultural    | 40    | 7.2        | 1.3     | 0.89      |
-| Emotional   | 30    | 6.8        | 1.5     | 0.86      |
-| Ethical     | 30    | 7.0        | 1.2     | 0.88      |
+**Legend:** Conv = Convergence (%), Iter = Avg Iterations, Coh = Coherence (0-1), Agr = Agent Agreement (%), Depth = Reasoning Depth (levels±SD)  
+*For complete metric definitions and detailed analysis, see the Supplementary Materials in the paper.*
 
 ## Method Overview
 
